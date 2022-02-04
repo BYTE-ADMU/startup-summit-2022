@@ -2,3 +2,5 @@
 Startup Summit is a 3-day tech conference that aims to empower Philippine HS and college students to step up for the future and create positive change.
 
 Estimated Launch Date: March 2022
+
+Developers: M Lee, Nirel Ibarra, Mon Lagustan, Martina Reyes, Trisha Lim, Yana Palarca
