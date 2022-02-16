@@ -19,18 +19,18 @@ M Lee, Joshua Taningco, Mon Lagustan, Martina Reyes, Trisha Lim, Yana Palarca
 
 # Development Tasks
 
-- Set up the Project Repository [x]
-- Set up the CMS Repository [x]
-- Navigation Bar []
-- Footer []
-- Card []
-- TBA []
+- [x] Set up the Project Repository
+- [x] Set up the CMS Repository
+- [] Navigation Bar 
+- [] Footer
+- [] Card 
+- [] TBA 
 
 # Filling in the Contents
 
-- Navigation Bar []
-- Footer []
-- Landing Page []
-- Projects Page []
-- About Page []
-- 404 Page []
+- [] Navigation Bar 
+- [] Footer 
+- [] Landing Page 
+- [] Projects Page
+- [] About Page
+- [] 404 Page 
