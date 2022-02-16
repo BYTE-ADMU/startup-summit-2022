@@ -7,29 +7,30 @@ Estimated Launch Date: March 2022
 ## Developers
 M Lee, Joshua Taningco, Mon Lagustan, Martina Reyes, Trisha Lim, Yana Palarca
 
---
+---
+
 # Installation Process using your terminal
 
 1. Navigate to the folder where you wish to clone your reponsitory.
 2. Open your terminal in this directoryr and type:
 ```git clone https://github.com/BYTE-ADMU/startup-summit-2022.git```
 
---
+---
 
 # Development Tasks
 
-[x] Set up the Project Repository
-[x] Set up the CMS Repository
-[] Navigation Bar
-[] Footer
-[] Card 
-[] tba
+- Set up the Project Repository [x]
+- Set up the CMS Repository [x]
+- Navigation Bar []
+- Footer []
+- Card []
+- TBA []
 
 # Filling in the Contents
 
-[] Navigation Bar
-[] Footer
-[] Landing Page
-[] Projects Page
-[] About Page
-[] 404 Page
+- Navigation Bar []
+- Footer []
+- Landing Page []
+- Projects Page []
+- About Page []
+- 404 Page []
