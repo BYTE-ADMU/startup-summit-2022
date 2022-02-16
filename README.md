@@ -9,10 +9,10 @@ M Lee, Joshua Taningco, Mon Lagustan, Martina Reyes, Trisha Lim, Yana Palarca
 
 ---
 
-# Installation Process using your terminal
+# Installation Process
 
-1. Navigate to the folder where you wish to clone your reponsitory.
-2. Open your terminal in this directoryr and type:
+1. Navigate to the folder where you wish to clone your repository.
+2. Open your terminal in this directory and type:
 ```git clone https://github.com/BYTE-ADMU/startup-summit-2022.git```
 
 ---
