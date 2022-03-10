@@ -2,10 +2,10 @@
 
 Startup Summit is a 3-day tech conference that aims to empower Philippine High School and college students to step up for the future and create positive change.
 
-Estimated Launch Date: March 2022
+Estimated Launch Date: April 2022
 
 ## Developers
-M Lee, Joshua Taningco, Mon Lagustan, Martina Reyes, Trisha Lim, Yana Palarca
+M Lee, Joshua Taningco, Mon Lagustan, Martina Reyes, Trisha Lim, Yana Palarca, Justin Reyes
 
 ---
 
@@ -14,6 +14,11 @@ M Lee, Joshua Taningco, Mon Lagustan, Martina Reyes, Trisha Lim, Yana Palarca
 1. Navigate to the folder where you wish to clone your repository.
 2. Open your terminal in this directory and type:
 ```git clone https://github.com/BYTE-ADMU/startup-summit-2022.git```
+3. Make sure you have Nodejs installed
+4. On your device, type in 'npm install' or 'npm i'
+5. Direct your terminal to the startupsummit2022 folder by typing 'cd startupsummit2022'
+6. Run the project by typing 'npm run start'
+7. Direct yourself to your localhost
 
 ---
 

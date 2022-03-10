@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "ObjectivityMedium";
+    src: local("ObjectivityMedium"),
+     url("../../fonts/objectivity/Objectivity-Medium.otf") format("truetype");
+    font-weight: medium;
+}
+
+nav {
+    background-color: #121C25; /*make this transparent when landing is made*/
+}
+
+li {
+    font-family: ObjectivityMedium;
+    list-style-type: none;
+    background: transparent;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1.5rem;
+}
+
+.menu li {
+    display: block;
+    padding: 1rem 0.5rem;
+}
+
+/* customized burger icon */
+.top, .middle, .bottom {
+    width: 24px;
+    height: 4px;
+    border-radius: 16px;
+    border-color: none;
+    margin: 4px 10px;
+  }
+
+.top { background-color: #0B59B6;}
+.middle { background-color: #F97F3D;}
+.bottom { background-color: #F2B330;}
+
+/* Edit the order of the menu*/
+.burger {
+    order: 1;
+}
+
+.button {
+    order:2;
+}
+
+.item {
+    order: 3;
+    width: 100%;
+    text-align: center;
+    display:none;
+}
+
+/* to hide the items in mobile view*/
+.menu .item { display: none; }
+
+.active .item {
+    display: block;
+}
+
+/* Tablet menu */
+@media screen and (min-width: 700px) {
+
+}
+
+/* Desktop menu */
+@media screen and (min-width: 960px) {
+    .sus-nav-logo {
+        order: 0;
+    }
+    
+    .item {
+        order: 1;
+        position: relative;
+        display: block !important;
+        width: auto;
+    }
+
+    .button {
+        order: 2;
+    }
+
+    .burger {
+        display: none !important;
+    }
+}
