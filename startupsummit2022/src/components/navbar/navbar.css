@@ -4,13 +4,6 @@
     margin: 0;
 }
 
-@font-face {
-    font-family: "ObjectivityMedium";
-    src: local("ObjectivityMedium"),
-     url("../../fonts/objectivity/Objectivity-Medium.otf") format("truetype");
-    font-weight: medium;
-}
-
 nav {
     background-color: #121C25; /*make this transparent when landing is made*/
 }
@@ -84,6 +77,7 @@ li {
 @media screen and (min-width: 960px) {
     .sus-nav-logo {
         order: 0;
+        margin-right: 35%;
     }
     
     .item {
