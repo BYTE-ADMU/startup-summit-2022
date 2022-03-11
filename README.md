@@ -16,7 +16,7 @@ M Lee, Joshua Taningco, Mon Lagustan, Martina Reyes, Trisha Lim, Yana Palarca, J
 ```git clone https://github.com/BYTE-ADMU/startup-summit-2022.git```
 3. Make sure you have Nodejs installed
 4. On your device, type in 'npm install' or 'npm i'
-5. On your device, type in 'gitt pull origin'
+5. On your device, type in 'git pull origin'
 6. Direct your terminal to the startupsummit2022 folder by typing 'cd startupsummit2022'
 7. Run the project by typing 'npm run start'
 8. Direct yourself to your localhost
