@@ -1,9 +1,37 @@
 @font-face {
-  font-family: "ObjectivityMedium";
-  src: local("ObjectivityMedium"),
-   url("./fonts/objectivity/Objectivity-Medium.otf") format("truetype");
-  font-weight: medium;
+  font-family: "ObjectivityBold";
+  src: local("ObjectivityBold"),
+   url("./fonts/objectivity/Objectivity-Bold.otf") format("truetype");
+  font-weight: bold;
   }
+
+  @font-face {
+    font-family: "ObjectivityMedium";
+    src: local("ObjectivityMedium"),
+     url("./fonts/objectivity/Objectivity-Medium.otf") format("truetype");
+    font-weight: medium;
+}
+
+@font-face {
+  font-family: "ObjectivityRegular";
+  src: local("ObjectivityRegular"),
+   url("./fonts/objectivity/Objectivity-Regular.otf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ObjectivityLight";
+  src: local("ObjectivityLight"),
+   url("./fonts/objectivity/Objectivity-Light.otf") format("truetype");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Nulshock";
+  src: local("Nulshock"),
+   url("./fonts/nulshock/nulshock\ bd.ttf") format("truetype");
+  font-weight: bold;
+}
 
 body {
   margin: 0;
