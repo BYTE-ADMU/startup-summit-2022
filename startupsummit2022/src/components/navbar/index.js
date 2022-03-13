@@ -8,7 +8,6 @@ import SUSLogo from '../../logos/sus-nav-logo.svg';
 
 function Navbar(){
     const [click, setClick] = useState(false);
-    const [dropdown, setDropdown] = useState(false);
   
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
