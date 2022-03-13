@@ -1,26 +1,55 @@
-import React from 'react'
-import './navbar.css'
+import React, { useState } from 'react';
+import { Button } from './button';
+import { Link } from 'react-router-dom';
+import './navbar.css';
 
 // Navbar SUS Logo
-import SUSLogo from '../../logos/sus-nav-logo.svg'
+import SUSLogo from '../../logos/sus-nav-logo.svg';
 
-const burger = document.querySelector('.burger');
-const menu = document.querySelector('.menu');
+function Navbar(){
+    const [click, setClick] = useState(false);
+    const [dropdown, setDropdown] = useState(false);
+  
+    const handleClick = () => setClick(!click);
+    const closeMobileMenu = () => setClick(false);
 
-function mobileMenu() {
-    if (menu.classList.contains("active")) {
-        menu.classList.remove("active");
-    } else {
-        menu.classList.add("active");
-    }
+    return (
+        <nav className='nav'>  
+            <Link to='/' className='nav__sus-logo'>
+                 <img src={SUSLogo}></img>
+            </Link>
+            <div className="nav__burger" onClick={handleClick}>
+                <div class="top"></div>
+                <div class="middle"></div>
+                <div class="bottom"></div>
+            </div>
+            <ul className={click ? 'nav__menu active' : 'nav__menu'}>
+                <li className="nav__item">
+                    <Link to='/' className='nav__links' onClick={closeMobileMenu}>
+                        Home
+                    </Link>
+                </li>
+                <li className="nav__item">
+                    <Link to='/' className='nav__links' onClick={closeMobileMenu}>
+                        Schedule
+                    </Link>
+                </li>
+                <li className="nav__item">
+                    <Link to='/' className='nav__links' onClick={closeMobileMenu}>
+                        Startups
+                    </Link>
+                </li>
+                <li className="nav__item">
+                    <Button />
+                </li>
+            </ul>
+        </nav>
+    )
 }
 
-burger.addEventListener('click', mobileMenu, false);
+export default Navbar;
 
-export default function Navbar(){
-    return (
-        <nav>  
-            <ul class="menu">
+            {/* <ul class="menu">
                 <li class="sus-nav-logo"><img src={SUSLogo}></img></li>
                 <li class="item">Home</li>
                 <li class="item">Schedule</li>
@@ -32,7 +61,4 @@ export default function Navbar(){
                     <div class="middle"></div>
                     <div class="bottom"></div>
                 </li>
-            </ul>
-        </nav>
-    )
-}
+            </ul> */}
