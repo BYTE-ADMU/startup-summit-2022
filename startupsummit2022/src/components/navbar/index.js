@@ -17,6 +17,7 @@ function Navbar(){
             <Link to='/' className='nav__sus-logo'>
                  <img src={SUSLogo}></img>
             </Link>
+            
             <div className="nav__burger" onClick={handleClick}>
                 <div class="top"></div>
                 <div class="middle"></div>
@@ -47,17 +48,3 @@ function Navbar(){
 }
 
 export default Navbar;
-
-            {/* <ul class="menu">
-                <li class="sus-nav-logo"><img src={SUSLogo}></img></li>
-                <li class="item">Home</li>
-                <li class="item">Schedule</li>
-                <li class="item">Startups</li>
-                <li class="item">About</li>
-                <button class="item">REGISTER</button>
-                <li class="burger"> 
-                    <div class="top"></div>
-                    <div class="middle"></div>
-                    <div class="bottom"></div>
-                </li>
-            </ul> */}
