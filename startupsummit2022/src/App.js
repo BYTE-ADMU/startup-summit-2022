@@ -2,8 +2,8 @@ import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 //Components
-import Navbar from './components/navbar/index';
-import Landing from './components/landing/index';
+import Navbar from './components/Navbar/Navbar';
+import Landing from './pages/Landing/Landing';
 
 
 // Startup Summit Fonts 

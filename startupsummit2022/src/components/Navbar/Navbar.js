@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import { Button } from './button';
+import { Button } from '../Button/Button';
 import { Link } from 'react-router-dom';
-import './navbar.css';
+import './styles.css';
 
 // Navbar SUS Logo
 import SUSLogo from '../../logos/sus-nav-logo.svg';
 
 function Navbar(){
     const [click, setClick] = useState(false);
-  
+
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
