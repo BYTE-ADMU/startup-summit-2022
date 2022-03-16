@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button } from '../Button/Button';
+import Button from '../Button';
 import { Link } from 'react-router-dom';
 import './styles.css';
 
@@ -15,7 +15,7 @@ function Navbar(){
     return (
         <nav className='nav'>  
             <Link to='/' className='nav__sus-logo'>
-                 <img src={SUSLogo}></img>
+                 <img src={SUSLogo} alt="Startup Summit 2022"></img>
             </Link>
             
             <div className="nav__burger" onClick={handleClick}>
@@ -40,7 +40,7 @@ function Navbar(){
                     </Link>
                 </li>
                 <li className="nav__item">
-                    <Button />
+                    <Button style="navbar" label="Register" link="register" />
                 </li>
             </ul>
         </nav>
