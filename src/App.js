@@ -5,6 +5,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Landing from './pages/Landing/Landing';
 import Startups from './pages/Startups/Startups';
+import Speakers from './pages/Speakers/Speakers';
 
 // Startup Summit Fonts 
 import './fonts/objectivity/Objectivity-Bold.otf';
@@ -22,6 +23,7 @@ function App() {
       <body>
         <Landing />
         <Startups />
+        <Speakers />
       </body>
     </div>
   );
