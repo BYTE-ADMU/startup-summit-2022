@@ -17,9 +17,8 @@ M Lee, Joshua Taningco, Mon Lagustan, Martina Reyes, Trisha Lim, Yana Palarca, J
 3. Make sure you have Nodejs installed
 4. On your device, type in ```npm install``` or ```npm i```
 5. On your device, type in ```git pull origin```
-6. Direct your terminal to the startupsummit2022 folder by typing ```cd startupsummit2022```
-7. Run the project by typing ```npm run start```
-8. Direct yourself to your localhost
+6. Run the project by typing ```npm start```
+7. Direct yourself to your localhost
 
 ---
 
