@@ -26,7 +26,7 @@ const Button = ({
 // 1. style - how will the button look like? (used strings 'primary', 'secondary', and 'navbar' to determine which css style to use)
 // 2. label - what will the button say? (button text)
 // 3. link - where does the button lead to?
-Button.PropTypes = {
+Button.propTypes = {
     style: PropTypes.string,
     label: PropTypes.string,
     link: PropTypes.string
