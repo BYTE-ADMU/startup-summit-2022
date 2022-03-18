@@ -3,8 +3,8 @@ import { Button } from '../Button/Button';
 import { Link } from 'react-router-dom';
 import './styles.css';
 
-// Navbar SUS Logo
-import SUSLogo from '../../logos/sus-nav-logo.svg';
+// Navbar Icons
+import SUSLogo from '../../assets/sus-nav-logo.svg';
 
 function Navbar(){
     const [click, setClick] = useState(false);
@@ -19,9 +19,7 @@ function Navbar(){
             </Link>
             
             <div className="nav__burger" onClick={handleClick}>
-                <div class="top"></div>
-                <div class="middle"></div>
-                <div class="bottom"></div>
+                <i className={click ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'} />
             </div>
             <ul className={click ? 'nav__menu active' : 'nav__menu'}>
                 <li className="nav__item">
