@@ -1,12 +1,38 @@
-.nav__register-btn {
+.default-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     align-self: center;
+
+    padding: 1rem;
+    font-family: "Nulshock", sans-serif;
+    font-size: 1rem;
+
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0.75rem;
+    outline: none;
+}
+
+.default-btn-link {
+    text-decoration: none;
+}
+
+.default-btn.primary {
+    background: var(--primary-color);
+}
+
+.default-btn.secondary {
+    background: var(--secondary-color);
+}
+
+.default-btn.navbar {
+    background: var(--button-gradient);
 }
 
 @media screen and (max-width: 960px) {
-    .nav__register-btn {
+    .default-btn {
         width: auto;
         height: 35px;
         padding: 0.25rem 4.5rem;
