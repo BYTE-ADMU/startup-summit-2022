@@ -1,9 +1,18 @@
 import React from 'react'
 import './styles.css'
+import Speaker from './Speaker';
 
 export default function Speakers(){
     return (
-        <h1>Speakers</h1>
-        
+        <div class="speaker__container">
+            
+            <h1>Past Speakers</h1>
+            <div class="spakers__area">
+                <Speaker />
+                <Speaker />
+                <Speaker />
+            </div>
+            
+        </div>
     )
 }
