@@ -4,7 +4,10 @@ import './styles.css'
 export default function Startups(){
     return (
         <div className="startups__container">
-            <div></div>
+            <div className="planet__border">
+                <div className="planet__content">
+                </div>
+            </div>  
         </div>
         
     )

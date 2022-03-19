@@ -1,5 +1,17 @@
 .startups__container {
-    border-style: solid;
-    border-width: 5px;
-    border-image: linear-gradient(90deg, rgba(242, 176, 49, 1), rgba(230, 125, 58, 1)) 1;
+    border: 1rem solid red;
+}
+
+.planet__content {
+    border-radius: 90%;
+    background-color:gray;
+    width: 10rem;
+    height: 10rem;
+}
+
+.planet__border { 
+    border-radius: 70%;
+    background: linear-gradient(110deg, rgba(230, 125, 58, 1), rgba(242, 176, 49, 1));
+    width: 20rem;
+    height: 20rem;
 }
