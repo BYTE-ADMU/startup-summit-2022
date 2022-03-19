@@ -46,3 +46,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Root Variables */
+/* In any part of the code, you can call any root variable by using var(--variable-name) */
+/* i.e. color: var(--primary-color) */
+
+:root {
+  /* COLORS */
+  --primary-color: #F97F3D;
+  --secondary-color: #0B59B6;
+  --button-gradient: linear-gradient(84.28deg, #0B59B6 36.54%, #F97F3D 55.85%, #F2B330 95.45%); /* Used for the Navbar button */
+}
