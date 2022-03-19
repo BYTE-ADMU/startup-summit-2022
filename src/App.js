@@ -5,6 +5,7 @@ import React from 'react';
 //Components
 import Navbar from './components/Navbar/Navbar';
 import Landing from './pages/Landing/Landing';
+import Testimonials from './pages/Testimonials/Testimonials';
 
 
 // Startup Summit Fonts 
@@ -21,7 +22,7 @@ function App() {
         <Navbar />
       </Router>
       <body>
-        <Landing />
+        <Testimonials />
       </body>
     </div>
   );

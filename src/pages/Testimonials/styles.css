@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.testimonials__container {
+    margin-top: 3.5rem;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    justify-content: center;
+}
+
+.testimonials__header {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: clamp(1rem, 1.5vw, 2rem); 
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-self: center;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+}
+
+.testimonials__testimonial {
+    width: 100%;
+}
+
+.testimonial-body {
+    font-family: ObjectivityLight;
+}

@@ -1,48 +1,55 @@
 import React from 'react'
-import {Navbar} from '../../components/Navbar'
 import './styles.css'
 
 export default function Testimonials(){
     return (
-        <div className='testimonials__testimonials-wrapper'>
-            <div className='testimonials__testimonials-header'>
+        <div className='testimonials__container'>
+            <div className='testimonials__header'>
                 <h1>TESTIMONIALS</h1>
-                <p>OUR PARTICIPANT STORIES. Learn how participants jumpstarted their startup journeys through Startup Summit.</p>
+                <p>OUR PARTICIPANT STORIES. <br/>
+                    Learn how participants jumpstarted their startup journeys through Startup Summit.
+                </p>
             </div>
-            <div className='testimonials__testimonials-content'>
-                <div className='testimonials__testimonial-item'>
+            <div className='testimonials'>
+                <div className='testimonials__testimonial'>
                     <img src=""></img>
-                    <div className='testimonial-item__summary'>
+                    <div className='testimonial-details'>
                         <h1>Name</h1>
                         <h2>Startup Summit (Year)</h2>
                     </div>
-                    <div className='testimonial-item__body'>
+                    <div className='testimonial-body'>
                         <p>
-                            loremipsumetcdlkdjadijdoidjdoi
+                        Use Objectivity Light for body text.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Neque id lorem ultrices  
                         </p>
                     </div>
                 </div>
-                <div className='testimonials__testimonial-item'>
+                <div className='testimonials__testimonial'>
                     <img src=""></img>
-                    <div className='testimonial-item__summary'>
+                    <div className='testimonial-details'>
                         <h1>Name</h1>
                         <h2>Startup Summit (Year)</h2>
                     </div>
-                    <div className='testimonial-item__body'>
+                    <div className='testimonial-body'>
                         <p>
-                            loremipsumetcdlkdjadijdoidjdoi
+                        Use Objectivity Light for body text.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Neque id lorem ultrices  
                         </p>
                     </div>
                 </div>
-                <div className='testimonials__testimonial-item'>
+                <div className='testimonials__testimonial'>
                     <img src=""></img>
-                    <div className='testimonial-item__summary'>
+                    <div className='testimonial-details'>
                         <h1>Name</h1>
                         <h2>Startup Summit (Year)</h2>
                     </div>
-                    <div className='testimonial-item__body'>
+                    <div className='testimonial-body'>
                         <p>
-                            loremipsumetcdlkdjadijdoidjdoi
+                        Use Objectivity Light for body text.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Neque id lorem ultrices  
                         </p>
                     </div>
                 </div>
