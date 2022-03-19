@@ -4,14 +4,24 @@
     width: 87%;
     height: 87%;
     position: relative;
-    top: 1.3rem;
-    left: 1.45rem;
+    top: 0.65rem;
+    left: 0.75rem;
 }
 
 .planet__border { 
-    border-radius: 70%;
+    border-radius: 90%;
     background: linear-gradient(110deg, rgba(230, 125, 58, 1), rgba(242, 176, 49, 1));
-    width: 20rem;
-    height: 20rem;
-    margin: 6rem;
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+}
+
+.startups__content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.startup__pagename {
+    align-self: center;
 }

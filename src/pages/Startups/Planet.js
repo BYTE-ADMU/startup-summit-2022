@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles.css'
 
-export default function Startups(){
+export default function Planet(){
     return (
         <div className="startups__container">
             <div className="planet__border">
