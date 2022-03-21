@@ -16,14 +16,16 @@ const Button = ({
     return (
         <>
             {
-                link
+                link // if there is a link
                 ?
-                    <Link to={link} className="default-btn-link">
+                    // this is the code if link is available
+                    <Link to={link} className="default-btn-link"> 
                         <button className={`default-btn ${style} ${props.className}`} {...props}>
                             {label}
                         </button>
                     </Link>
                 :
+                    // else -- this is the code if link is not available
                     <button className={`default-btn ${style} ${props.className}`} {...props}>
                         {label}
                     </button>

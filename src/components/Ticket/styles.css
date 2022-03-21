@@ -13,6 +13,8 @@
 }
 
 .ticket__wrapper {
+    height: 100%;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,4 +58,25 @@
     align-content: center;
 
     padding: 4rem;
+}
+
+.left-ticket {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.left-ticket__header {
+    font-family: 'Nulshock', sans-serif;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #F97F3D;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.sun {
+    padding-top: 1.5rem;
 }
