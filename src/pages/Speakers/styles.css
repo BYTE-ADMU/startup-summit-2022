@@ -1,3 +1,9 @@
+body {
+    background-color: #282c34;
+    color: white;
+    font-family: Nulshock;
+}
+
 .speaker__container {
     margin: 0 auto;
 
@@ -11,7 +17,7 @@
 }
 
 .speaker__div {
-    font-family: ObjectivityMedium;
+    font-family: Nulshock;
     margin: auto;
     padding: 5rem;
 }
@@ -46,7 +52,11 @@
     padding: 1rem;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 744px) {
+    
+}
+
+@media screen and (max-width:380px) {
     .speakers__area {
         flex-direction: column wrap;
     }
