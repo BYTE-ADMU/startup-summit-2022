@@ -4,8 +4,14 @@
     margin: 0;
 }
 
+body {
+    background-color: #121C25;
+    color: #FFFCF6;
+    width: 100%;
+}
+
 .testimonials__container {
-    margin-top: 3.5rem;
+    margin-top: 6.5rem;
     height: 100%;
     display: grid;
     grid-template-rows: 3fr 1fr;
@@ -15,23 +21,39 @@
 .testimonials__header {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    font-size: clamp(1rem, 1.5vw, 2rem); 
+    gap: 3rem;
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    font-family: Nulshock;
+    font-weight: 700;
+}
+
+.testimonials__header p {
+    font-family: ObjectivityMedium;
+    line-height: 1.5rem;
+    font-weight: 500;
 }
 
 .testimonials {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-self: center;
-    width: 90%;
+    width: 65vw;
     justify-content: center;
     margin: auto;
+    gap: 2rem;
 }
 
 .testimonials__testimonial {
     width: 100%;
+    font-family: ObjectivityMedium;
+    font-weight: 500;
+}
+
+.testimonial-details h1 {
+    margin-bottom: 0.5rem;
 }
 
 .testimonial-body {
     font-family: ObjectivityLight;
+    padding-top: 1rem;
 }
