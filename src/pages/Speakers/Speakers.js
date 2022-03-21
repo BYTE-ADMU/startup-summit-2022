@@ -7,7 +7,7 @@ export default function Speakers(){
         <div class="speaker__container">
             
             <h1>Past Speakers</h1>
-            <div class="spakers__area">
+            <div class="speakers__area">
                 <Speaker />
                 <Speaker />
                 <Speaker />
