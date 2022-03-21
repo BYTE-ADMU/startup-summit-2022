@@ -14,11 +14,21 @@ const Button = ({
     ...props
 }) => {
     return (
-        <Link to={link} className="default-btn-link">
-            <button className={`default-btn ${style} ${props.className}`}>
-                {label}
-            </button>
-        </Link>
+        <>
+            {
+                link
+                ?
+                    <Link to={link} className="default-btn-link">
+                        <button className={`default-btn ${style} ${props.className}`} {...props}>
+                            {label}
+                        </button>
+                    </Link>
+                :
+                    <button className={`default-btn ${style} ${props.className}`} {...props}>
+                        {label}
+                    </button>
+            }
+        </>
     );
 }
 
