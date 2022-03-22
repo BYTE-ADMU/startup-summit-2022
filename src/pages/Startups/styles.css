@@ -4,22 +4,22 @@ body {
     font-family: Nulshock;
 }
 
+.planet__border { 
+    border-radius: 90%;
+    background: linear-gradient(110deg, rgba(230, 125, 58, 1), rgba(242, 176, 49, 1));
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
 .planet__content {
     border-radius: 90%;
     background-color:gray;
     width: 87%;
     height: 87%;
-    position: relative;
-    top: 0.65rem;
-    left: 0.75rem;
-}
-
-.planet__border { 
-    border-radius: 90%;
-    background: linear-gradient(110deg, rgba(230, 125, 58, 1), rgba(242, 176, 49, 1));
-    width: 10rem;
-    height: 10rem;
-    margin: 1rem;
 }
 
 .startups__content {
