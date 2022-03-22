@@ -5,6 +5,9 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Landing from './pages/Landing/Landing';
 
+// Change this to the page when merging, this is for the pfp only right now
+import Testimonials from './components/Testimonials/TestimonialPicture';
+
 
 // Startup Summit Fonts 
 import './fonts/objectivity/Objectivity-Bold.otf';
@@ -21,6 +24,7 @@ function App() {
       </Router>
       <body>
         <Landing />
+        <Testimonials />
       </body>
     </div>
   );
