@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom';
 import './styles.css';
 
 // Navbar Icons
-import SUSLogo from '../../assets/sus-nav-logo.svg';
+import SUSLogo from '../../assets/nav__sus-logo.svg';
+import Burger from '../../assets/nav__burger.svg';
+import Exit from '../../assets/nav__exit.svg';
 
 function Navbar(){
     const [click, setClick] = useState(false);
@@ -19,7 +21,7 @@ function Navbar(){
             </Link>
             
             <div className="nav__burger" onClick={handleClick}>
-                <i className={click ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'} />
+                <img src={Burger} />
             </div>
             <ul className={click ? 'nav__menu active' : 'nav__menu'}>
                 <li className="nav__item">
