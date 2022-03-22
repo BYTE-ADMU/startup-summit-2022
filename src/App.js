@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 //Components
 import Navbar from './components/Navbar/Navbar';
+import Ticket from './components/Ticket';
 import Landing from './pages/Landing/Landing';
 
 // Change this to the page when merging, this is for the pfp only right now
