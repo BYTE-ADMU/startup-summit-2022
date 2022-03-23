@@ -9,6 +9,8 @@ import Landing from './pages/Landing/Landing';
 // Change this to the page when merging, this is for the pfp only right now
 import Testimonials from './components/Testimonials/TestimonialPicture';
 
+//Backgrounds for the intersected areas
+import Bars from './pages/Landing/assets/landing__bg-bars.svg'
 
 // Startup Summit Fonts 
 import './fonts/objectivity/Objectivity-Bold.otf';
@@ -25,6 +27,7 @@ function App() {
       </Router>
       <body>
         <Landing />
+          <img id="landing__bars" src={Bars} />
         <Testimonials />
       </body>
     </div>
