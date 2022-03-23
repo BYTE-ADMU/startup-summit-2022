@@ -7,10 +7,9 @@
 }
 
 .testimonials__background {
-    background-color: transparent;
-    border: solid 4px;
-    border-color: white;
+    background: linear-gradient(90deg, #F2B330 18.71%, #F97F3D 57.86%, #3C7AC5 80.59%);
     border-radius: 50%;
+    padding: 4px;
 }
 
 #testimonials__pfp-design {
@@ -25,4 +24,5 @@
     height: 180px;
     border-radius: 50%;
     padding: 0.5rem;
+    padding-top: 10px;
 }
