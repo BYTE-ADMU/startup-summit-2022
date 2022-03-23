@@ -14,11 +14,23 @@ const Button = ({
     ...props
 }) => {
     return (
-        <Link to={link} className="default-btn-link">
-            <button className={`default-btn ${style} ${props.className}`}>
-                {label}
-            </button>
-        </Link>
+        <>
+            {
+                link // if there is a link
+                ?
+                    // this is the code if link is available
+                    <Link to={link} className="default-btn-link"> 
+                        <button className={`default-btn ${style} ${props.className}`} {...props}>
+                            {label}
+                        </button>
+                    </Link>
+                :
+                    // else -- this is the code if link is not available
+                    <button className={`default-btn ${style} ${props.className}`} {...props}>
+                        {label}
+                    </button>
+            }
+        </>
     );
 }
 

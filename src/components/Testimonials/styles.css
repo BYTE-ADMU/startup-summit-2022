@@ -1,0 +1,28 @@
+.testimonials__pfp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    max-width: 245px;
+}
+
+.testimonials__background {
+    background: linear-gradient(90deg, #F2B330 18.71%, #F97F3D 57.86%, #3C7AC5 80.59%);
+    border-radius: 50%;
+    padding: 4px;
+}
+
+#testimonials__pfp-design {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    max-height: 80px;
+}
+
+#testimonials__pfp {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    padding: 0.5rem;
+    padding-top: 10px;
+}

@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+/* Backgrounds that intersect sections */
+#landing__bars {
+  background-color: transparent;
+  position: absolute;
+  top:400px;
+  right:40px;
+  z-index:0;
+  height: 800px;
+}
+
+@media screen and (max-width:800px){ 
+/* Backgrounds that intersect sections */
+#landing__bars {
+  background-color: transparent;
+  position: absolute;
+  top:500px;
+  right:40px;
+  z-index:0;
+  height: 700px;
+}
+}
+
+@media screen and (max-width:450px){
+  /* Backgrounds that intersect sections */
+#landing__bars {
+  background-color: transparent;
+  position: absolute;
+  top:500px;
+  right:-20px;
+  z-index:0;
+  height: 450px;
+}
+}

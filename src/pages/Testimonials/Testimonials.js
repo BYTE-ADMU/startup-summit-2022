@@ -1,5 +1,7 @@
-import React from 'react'
-import './styles.css'
+import React from 'react';
+import './styles.css';
+
+import TestimonialPicture from '../../components/Testimonials/TestimonialPicture';
 
 export default function Testimonials(){
     return (
@@ -12,7 +14,7 @@ export default function Testimonials(){
             </div>
             <div className='testimonials'>
                 <div className='testimonials__testimonial'>
-                    <img src=""></img>
+                    <TestimonialPicture />
                     <div className='testimonial-details'>
                         <h1>Name</h1>
                         <h2>Startup Summit (Year)</h2>
