@@ -126,7 +126,12 @@ p{
 }
 
 #landing__yellowplane {
-  display:none;
+  background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  left: -20px;
+  z-index:0;
+  height: 100px;
 }
 }
 
