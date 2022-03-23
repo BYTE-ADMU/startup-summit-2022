@@ -38,7 +38,7 @@ export default function  Schedule(){
                 <img src={tail} className='plane_tail'></img>
              </div> */}
 
-            <div className='plane'><img src={plane_right}></img></div>
+            {/* <div className='plane'><img src={plane_right}></img></div> */}
             <img src={MainTicket} id="schedule-main-ticket" />
             {/* <div className='Ticket'>
                 <Ticket reversed> 
