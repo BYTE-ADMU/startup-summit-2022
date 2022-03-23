@@ -7,6 +7,8 @@ import NowBoarding from './assets/landing__nowboarding.svg'
 import MainLogo from './assets/landing__mainlogo.svg'
 import Circles from './assets/landing__bg-circles.svg'
 import YellowPlane from './assets/landing__bg-yellow-plane.png'
+import TopLeft from './assets/landing__top-left.svg'
+import TopRight from './assets/landing__top-right.svg'
 
 export default function Landing(){
     return (

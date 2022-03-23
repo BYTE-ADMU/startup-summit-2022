@@ -75,6 +75,9 @@ li {
 .nav__burger.active {
     transform: rotate(45deg);
 }
+.nav__burger.active {
+    transform: rotate(45deg);
+}
 }
 /* ^customizing the items in mobile view*/
 
