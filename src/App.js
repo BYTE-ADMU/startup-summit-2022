@@ -4,12 +4,16 @@ import { BrowserRouter as Router } from 'react-router-dom';
 //Components
 import Navbar from './components/Navbar/Navbar';
 import Ticket from './components/Ticket';
+//import Footer from './components/Footer';
 
 //Pages
 import Landing from './pages/Landing/Landing';
 import About from './pages/About/About';
-import Testimonials from './pages/Testimonials/Testimonials';
 import Schedule from './pages/Schedule/Schedule';
+import Testimonials from './pages/Testimonials/Testimonials';
+
+import AboutByte from './pages/AboutByte/AboutByte';
+// import FAQs from  './pages/FAQs/FAQs';
 
 //Backgrounds for the intersected areas
 import Bars from './pages/Landing/assets/landing__bg-bars.png'
@@ -33,9 +37,9 @@ function App() {
           <About />
           <Schedule />
         <Testimonials />
-        {/* <Startups />
+        {/* <Startups /> */}
         <AboutByte />
-        <FAQs /> */}
+        {/* <FAQs /> */}
       </body>
     </div>
   );
