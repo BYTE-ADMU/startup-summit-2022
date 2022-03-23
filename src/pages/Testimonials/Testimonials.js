@@ -19,41 +19,71 @@ export default function Testimonials(){
                         <h1>Name</h1>
                         <h2>Startup Summit (Year)</h2>
                     </div>
-                    <div className='testimonial-body'>
-                        <p>
+                    <p className='testimonial-body'>
                         Use Objectivity Light for body text.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Neque id lorem ultrices  
-                        </p>
-                    </div>
+                    </p>
                 </div>
                 <div className='testimonials__testimonial'>
-                    <img src=""></img>
+                    <TestimonialPicture />
                     <div className='testimonial-details'>
                         <h1>Name</h1>
                         <h2>Startup Summit (Year)</h2>
                     </div>
-                    <div className='testimonial-body'>
-                        <p>
+                    <p className='testimonial-body'>
                         Use Objectivity Light for body text.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Neque id lorem ultrices  
-                        </p>
-                    </div>
+                    </p>
                 </div>
                 <div className='testimonials__testimonial'>
-                    <img src=""></img>
+                    <TestimonialPicture />
                     <div className='testimonial-details'>
                         <h1>Name</h1>
                         <h2>Startup Summit (Year)</h2>
                     </div>
-                    <div className='testimonial-body'>
-                        <p>
+                    <p className='testimonial-body'>
                         Use Objectivity Light for body text.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Neque id lorem ultrices  
-                        </p>
+                    </p>
+                </div>
+                <div className='testimonials__testimonial'>
+                    <TestimonialPicture />
+                    <div className='testimonial-details'>
+                        <h1>Name</h1>
+                        <h2>Startup Summit (Year)</h2>
                     </div>
+                    <p className='testimonial-body'>
+                        Use Objectivity Light for body text.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Neque id lorem ultrices  
+                    </p>
+                </div>
+                <div className='testimonials__testimonial'>
+                    <TestimonialPicture />
+                    <div className='testimonial-details'>
+                        <h1>Name</h1>
+                        <h2>Startup Summit (Year)</h2>
+                    </div>
+                    <p className='testimonial-body'>
+                        Use Objectivity Light for body text.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Neque id lorem ultrices  
+                    </p>
+                </div>
+                <div className='testimonials__testimonial'>
+                    <TestimonialPicture />
+                    <div className='testimonial-details'>
+                        <h1>Name</h1>
+                        <h2>Startup Summit (Year)</h2>
+                    </div>
+                    <p className='testimonial-body'>
+                        Use Objectivity Light for body text.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Neque id lorem ultrices  
+                    </p>
                 </div>
             </div>
         </div>
