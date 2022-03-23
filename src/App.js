@@ -13,7 +13,7 @@ import Schedule from './pages/Schedule/Schedule';
 import Testimonials from './pages/Testimonials/Testimonials';
 
 import AboutByte from './pages/AboutByte/AboutByte';
-// import FAQs from  './pages/FAQs/FAQs';
+import FAQs from  './pages/FAQs/FAQs';
 
 //Backgrounds for the intersected areas
 import Bars from './pages/Landing/assets/landing__bg-bars.png'
@@ -39,7 +39,7 @@ function App() {
         <Testimonials />
         {/* <Startups /> */}
         <AboutByte />
-        {/* <FAQs /> */}
+        <FAQs />
       </body>
     </div>
   );

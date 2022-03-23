@@ -1,0 +1,30 @@
+.faq__container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.faq-header {
+    font-family: 'Nulshock';
+    font-size: 2.5rem;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 3rem 2rem 4rem 2rem;
+}
+
+.bar-design {
+    height: 8px;
+    width: 100%;
+    background: linear-gradient(90.03deg, #0B59B6 39.58%, #F97F3D 64.73%, #F2B330 116.29%);
+}
+
+.faq-question {
+    font-family: Nulshock;
+    font-size: 1.5rem;
+    line-height: 120%;
+}
+
+.faq-answer {
+    font-family: ObjectivityLight;
+    font-size: 1.5rem;
+    line-height: 120%;
+}

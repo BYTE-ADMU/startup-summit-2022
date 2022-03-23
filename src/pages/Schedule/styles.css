@@ -291,7 +291,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
     .schedule__container {
         display:flex;
         flex-direction: column;
@@ -325,7 +325,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         max-width: 20rem;
         align-items: center;
         font-family: 'Objectivity';
-        font-size: .7rem;
+        font-size: .8rem;
         line-height: 1rem;
         color: #FAFAFA;
     }
