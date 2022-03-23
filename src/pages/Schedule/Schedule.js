@@ -16,12 +16,13 @@ import wavy_lines from './assets/wavy_lines.png'
 import wavy_lines2 from './assets/wavy_lines2.png'
 import boxes from './assets/boxes.png'
 import MainTicket from './assets/ticket.svg'
+import SpeakersComingSoon from './assets/speakers-coming-soon.svg'
 
 export default function  Schedule(){
     return (
         <div className="schedule__container">
             <div className='boarding_pass_container'>
-                <div className="boarding_pass">CLAIM YOUR BOARDING PASS NOW!</div>
+                <div className="schedule__title boarding__pass">CLAIM YOUR BOARDING PASS NOW!</div>
 
                 <div className='boarding_pass_details'>
                     <div className='boarding_pass_spiel'>Join us as we blast off into the future with students, storytellers, and startup founders 
@@ -31,8 +32,6 @@ export default function  Schedule(){
 
                 </div>
             </div>
-
-            <div className='boxes'><img src={boxes}></img></div>
 
         { /* <div className='plane'>
                 <img src={plane} ></img>
@@ -65,8 +64,7 @@ export default function  Schedule(){
             </div> */}
 
             <div className='schedule_details'>
-                <div className='schedule'>SCHEDULE</div>
-
+                <div className='schedule__title schedule'>SCHEDULE</div>
                     <div className='schedule_info_container'>
                             <div className='schedule_info'>
                                 <div className='date'>Day 1 - April 6, 2022</div>
@@ -75,7 +73,7 @@ export default function  Schedule(){
                                     <div>3:00 - 5:15 PM</div>
                                 </div>
                             </div>
-                                <img src={arrow} />
+                                <img src={arrow} id="schedule__arrow-icon" />
                             <div className='schedule_info'>
                                 <div className='date'>Day 1 - April 6, 2022</div>
                                 <div className='date_info'>
@@ -83,7 +81,7 @@ export default function  Schedule(){
                                     <div>3:00 - 5:15 PM</div>
                                 </div>
                             </div>
-                                <img src={arrow} />
+                                <img src={arrow} id="schedule__arrow-icon" />
                             <div className='schedule_info'>
                                 <div className='date'>Day 1 - April 6, 2022</div>
                                 <div className='date_info'>
@@ -91,7 +89,7 @@ export default function  Schedule(){
                                     <div>3:00 - 5:15 PM</div>
                                 </div>
                             </div>
-                                <img src={arrow} />
+                                <img src={arrow} id="schedule__arrow-icon" />
                             <div className='schedule_info'>
                                 <div className='date'>Day 1 - April 6, 2022</div>
                                 <div className='date_info'>
@@ -101,25 +99,10 @@ export default function  Schedule(){
                             </div>
                     </div>
             </div>
-
-            <div className='boxlines'><img src={boxlines}></img></div>
-            
-            <div className='wavy_lines'><img src={wavy_lines}></img></div>
-
-
             <div className='bottom_card'>
-
-                <div className='speakers_soon'>SPEAKERS COMING SOON</div>
-                <div className='wavy_lines2'><img src={wavy_lines2}></img></div>
-
-                <div className='botcard'>
-                    <div className='startup_card'>STARTUP SUMMIT 2022 ITINERARY</div>
-                    <div className='startup_card_white'></div>
-                </div>
-                
-            
+                <div className='schedule__title speakers_soon'>SPEAKERS COMING SOON</div>
+                <img src={SpeakersComingSoon} id="speakers-coming-soon" />
             </div>
-
         </div>
     )
 }

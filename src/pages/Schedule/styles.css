@@ -4,7 +4,7 @@
     margin: 0 4rem;
 }
 
-.boarding_pass{
+.schedule__title {
     font-family: 'Nulshock';
     font-size: 2.5rem;
     margin-bottom: 3rem;
@@ -161,9 +161,16 @@ color: #FAFAFA;
 .schedule_info_container{
     display: flex;
     justify-content: space-evenly;
-    /* border-style: solid;
-    border-color: red; */
     width: 100%;
+    margin: 0 2rem 0 0;
+}
+
+.date {
+    font-size: 1.25rem;
+}
+
+.date_info {
+    font-size: 1.2rem;
 }
 
 .date{
@@ -185,19 +192,7 @@ color: white;
 }
 
 
-.speakers_soon{
-width: 651px;
-left: 120px;
-font-family: 'Nulshock';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-margin-left: 6rem;
-
-color: #FAFAFA;
-/* border-style: solid;
-border-color: red; */
-}
+.speakers_soon { margin: 2rem 0 0 0; }
 
 .boxlines{
     /* position: absolute; */
@@ -218,7 +213,7 @@ left: -88px;
 top: 766px;
 }
 
-.wavy_lines2{
+.wavy_lines2 {
 
 /* position: absolute; */
 width: 3.5rem;
@@ -230,41 +225,13 @@ text-align: left;
 transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
-.startup_card{
-    height: 7rem;
-    width: 70rem;
-    /* left: 1041px; */
-    /* top: 0px; */
-    text-align: center;
-    /* border-radius: 23.5937px; */
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    margin-left: 7.5rem;
-    
-    background: linear-gradient(90deg, #F2B330 13.46%, #F97F3D 22.81%, #3C7AC5 57.51%);
-    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
-    font-family: 'Nulshock';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 120%;
-    color: white;
-    padding-top: 2rem;
-}
-
-.startup_card_white{
-    /* position: absolute; */
-    width: 70rem;
-    height: 125.09px;
-    margin-left: 7.5rem;
-    /* Dark Blue */
-    background: white;
-}
-
 .bottom_card{
     text-align: center;
-    /* border-style: solid;
-    border-color: rebeccapurple; */
+    margin: 2rem 0 0 0;
+}
+
+#speakers-coming-soon {
+    width: 90%;
 }
 
 @media screen and (max-width:1200px){ 
@@ -274,7 +241,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         margin: 0 3rem;
     }
 
-    .boarding_pass{
+    .schedule__title {
         font-family: 'Nulshock';
         font-size: 2rem;
         margin-bottom: 2rem;
@@ -308,12 +275,22 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         width: 90%;
         max-width: 1000px;
     }
-    #schedule-main-ticket {
+
+    .date {
+        font-size: 1rem;
+        padding-bottom: 4px;
+    }
+    
+    .date_info {
+        font-size: 0.9rem;
+    }
+
+    #speakers-coming-soon {
         width: 90%;
         max-width: 1000px;
     }
-        
 }
+
 @media screen and (max-width: 800px) {
     .schedule__container {
         display:flex;
@@ -322,8 +299,10 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     }
 
     .schedule_info_container{
-        display: block;
-        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .boarding_pass_details{
@@ -334,12 +313,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         margin-top: 4rem;
     }
 
-    /* .Ticket, .bottom_card{
-        width: 35rem;
-        text-align: center;
-    } */
-
-    .boarding_pass{
+    .schedule__title {
         font-family: 'Nulshock';
         font-size: 1.2rem;
         margin-bottom: 1rem;
@@ -389,10 +363,35 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 
     .schedule {
         font-size: 1.2rem;
+        text-align: center;
+    }
+
+    #schedule-main-ticket {
+        width: 100%;
+    }
+
+    .date {
+        font-size: 1.1rem;
+        padding-bottom: 4px;
+    }
+    
+    .date_info {
+        font-size: 1rem;
+    }
+
+    #schedule__arrow-icon {
+        transform: rotate(90deg);
+        padding: 1rem 0;
+        height: 3rem;
+    }
+
+    #speakers-coming-soon {
+        width:100%;
     }
 }
+
 @media screen and (max-width: 430px) {
-    .boarding_pass{
+    .schedule__title {
         font-family: 'Nulshock';
         font-size: 1rem;
         margin-bottom: 1rem;
@@ -417,5 +416,20 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         font-size: 0.5rem;
         border: 1px solid #fff;
         height: 1.56rem;
+    }
+
+    .date {
+        font-size: 0.9rem;
+        padding-bottom: 4px;
+    }
+    
+    .date_info {
+        font-size: 0.8rem;
+    }
+    
+    #schedule__arrow-icon {
+        transform: rotate(90deg);
+        padding: 1rem 0;
+        height: 3rem;
     }
 }
