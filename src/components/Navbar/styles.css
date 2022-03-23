@@ -40,6 +40,7 @@ li {
     position: absolute;
     top: 1.6rem;
     right: 1rem;
+    z-index: 2;
 }
 
 .nav__sus-logo {
@@ -60,6 +61,7 @@ li {
     top: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    z-index: 2;
 }
 
 
@@ -68,7 +70,7 @@ li {
     top: 80px;
     opacity: 1;
     transition: all 0.5s ease;
-    z-index: 1;
+    z-index: 2;
 }
 .nav__burger.active {
     transform: rotate(45deg);
