@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 import Ticket from './components/Ticket';
 import Landing from './pages/Landing/Landing';
 import Testimonials from './pages/Testimonials/Testimonials';
+import Schedule from './pages/Schedule/Schedule';
 
 //Backgrounds for the intersected areas
 import Bars from './pages/Landing/assets/landing__bg-bars.svg'
@@ -27,6 +28,7 @@ function App() {
         <Landing />
           <img id="landing__bars" src={Bars} />
         <Testimonials />
+        <Schedule />
       </body>
     </div>
   );
