@@ -41,10 +41,10 @@
 #landing__bars {
   background-color: transparent;
   position: absolute;
-  top:400px;
-  right:40px;
+  top:350px;
+  right:0px;
   z-index:0;
-  height: 800px;
+  height: 420px;
 }
 
 @media screen and (max-width:800px){ 
@@ -52,21 +52,16 @@
 #landing__bars {
   background-color: transparent;
   position: absolute;
-  top:500px;
-  right:40px;
+  top:400px;
+  right:00px;
   z-index:0;
-  height: 700px;
+  height: 400px;
 }
 }
 
 @media screen and (max-width:450px){
   /* Backgrounds that intersect sections */
 #landing__bars {
-  background-color: transparent;
-  position: absolute;
-  top:500px;
-  right:-20px;
-  z-index:0;
-  height: 450px;
+  display:none;
 }
 }

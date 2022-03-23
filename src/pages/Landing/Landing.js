@@ -10,8 +10,8 @@ import YellowPlane from './assets/landing__bg-yellow-plane.png'
 
 export default function Landing(){
     return (
-        <div class="landing__container">
-            <div class="landing__content">
+        <div className="landing__container">
+            <div className="landing__content">
                 <img id="landing__nowboarding" src={NowBoarding} />
                 <img id="landing__mainlogo" src={MainLogo} />
                 <div id="landing__header">

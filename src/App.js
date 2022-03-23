@@ -4,12 +4,15 @@ import { BrowserRouter as Router } from 'react-router-dom';
 //Components
 import Navbar from './components/Navbar/Navbar';
 import Ticket from './components/Ticket';
+
+//Pages
 import Landing from './pages/Landing/Landing';
+import About from './pages/About/About';
 import Testimonials from './pages/Testimonials/Testimonials';
 import Schedule from './pages/Schedule/Schedule';
 
 //Backgrounds for the intersected areas
-import Bars from './pages/Landing/assets/landing__bg-bars.svg'
+import Bars from './pages/Landing/assets/landing__bg-bars.png'
 
 // Startup Summit Fonts 
 import './fonts/objectivity/Objectivity-Bold.otf';
@@ -27,8 +30,12 @@ function App() {
       <body>
         <Landing />
           <img id="landing__bars" src={Bars} />
+          <About />
+          <Schedule />
         <Testimonials />
-        <Schedule />
+        {/* <Startups />
+        <AboutByte />
+        <FAQs /> */}
       </body>
     </div>
   );

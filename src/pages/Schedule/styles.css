@@ -1,7 +1,7 @@
 .schedule__container {
     display:flex;
     flex-direction: column;
-    margin: 0 4rem;
+    margin: 2rem 4rem;
 }
 
 .schedule__title {
@@ -192,7 +192,7 @@ color: white;
 }
 
 
-.speakers_soon { margin: 2rem 0 0 0; }
+.speakers_soon { margin: 2rem 0 4rem 0; }
 
 .boxlines{
     /* position: absolute; */
@@ -238,7 +238,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     .schedule__container {
         display:flex;
         flex-direction: column;
-        margin: 0 3rem;
+        margin: 6rem 3rem;
     }
 
     .schedule__title {
@@ -333,7 +333,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     .schedule-btn {
         font-size: 0.5rem;
         border: 1px solid #fff;
-        height: 1.56rem;
+        height: 2rem;
     }
 
     .Ticket{
