@@ -5,9 +5,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Ticket from './components/Ticket';
 import Landing from './pages/Landing/Landing';
-
-// Change this to the page when merging, this is for the pfp only right now
-import Testimonials from './components/Testimonials/TestimonialPicture';
+import Testimonials from './pages/Testimonials/Testimonials';
 
 //Backgrounds for the intersected areas
 import Bars from './pages/Landing/assets/landing__bg-bars.svg'
