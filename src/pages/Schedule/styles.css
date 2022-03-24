@@ -1,7 +1,11 @@
 .schedule__container {
     display:flex;
     flex-direction: column;
-    margin: 2rem 4rem;
+    margin: 4rem;
+}
+
+.boarding_pass_container {
+    margin: 6rem 0 0 0;
 }
 
 .schedule__title {
@@ -17,38 +21,6 @@
     align-items: center;
     text-align: left;
     margin:  0 0 2rem 0;
-}
-
-.boxes{
-    position: absolute;
-    width: 14px;
-    top: 106px;
-}
-
-.plane{
-    position: absolute;
-    width: 155.84px;
-    height: 126.66px;
-    left: 1220.73px;
-    top: 94.74px;
-    text-align: right;
-    /* border-style: solid;
-    border-color: red; */
-}
-.plane_right{
-    position: absolute;
-    width: 471px;
-    height: 322.7px;
-    left: 1187px;
-    top: 118px;
-}
-
-.plane_tail{
-    /* position: absolute;
-    width: 388.61px;
-    height: 154.58px;
-    left: 1371px;
-    top: 127.66px; */
 }
 
 .button{
@@ -154,7 +126,6 @@
     text-align: left;
 
 /* White */
-
 color: #FAFAFA;
 }
 
@@ -175,11 +146,11 @@ color: #FAFAFA;
 
 .date{
     font-family: 'Objectivity';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 120%;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #FFFFFF;
 }
 
 .date_info{
@@ -191,39 +162,7 @@ line-height: 120%;
 color: white;
 }
 
-
 .speakers_soon { margin: 2rem 0 4rem 0; }
-
-.boxlines{
-    /* position: absolute; */
-    /* width: 417.5px;
-    height: 152.61px; */
-    /* left: 1104px; */
-    top: 1040px;
-    /* border-style: solid;
-    border-color: red; */
-    text-align: right;
-}
-
-.wavy_lines{
-    position: absolute;
-width: 177px;
-height: 81.91px;
-left: -88px;
-top: 766px;
-}
-
-.wavy_lines2 {
-
-/* position: absolute; */
-width: 3.5rem;
-/* height: 81.91px; */
-/* left: 89px; */
-/* top: 1193px; */
-text-align: left;
-
-transform: matrix(-1, 0, 0, 1, 0, 0);
-}
 
 .bottom_card{
     text-align: center;
@@ -232,6 +171,23 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 
 #speakers-coming-soon {
     width: 90%;
+}
+
+/* Background */
+#top-right-plane {
+    background-color: transparent;
+    position: absolute;
+    top: 1550px;
+    right: -100px;
+    height: 240px;
+}
+
+#box-lines {
+    background-color: transparent;
+    position: absolute;
+    top: 2350px;
+    right: 0;
+    height: 100px;
 }
 
 @media screen and (max-width:1200px){ 
@@ -249,18 +205,24 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         text-align: left;
     }
 
+    .boarding__pass {
+        margin: 3rem 0 0 0;
+    }
+
     .boarding_pass_spiel{
         max-width: 30rem;
         align-items: center;
         font-family: 'Objectivity';
-        font-size: 1.2rem;
-        line-height: 1.75rem;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        padding: 0.8rem 0 0 0;
         color: #FAFAFA;
     }
 
     .schedule-btn {
         font-size: 0.75rem;
         border: 2px solid #fff;
+        margin: 0.8rem 0 0 1.8rem;
     }
 
     .schedule_details {
@@ -289,6 +251,40 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         width: 90%;
         max-width: 1000px;
     }
+
+    /* Background */
+    #top-right-plane {
+        background-color: transparent;
+        position: absolute;
+        top: 1650px;
+        right: -100px;
+        height: 20%;
+    }
+
+    #box-lines {
+        background-color: transparent;
+        position: absolute;
+        top: 2300px;
+        right: 0;
+        height: 70px;
+    }
+}
+
+@media screen and (min-width:750px) and (max-width: 1200px) {
+        /* Background */
+        #top-right-plane {
+            display:none;
+        }
+    
+        #box-lines {
+            display:none;
+        }
+
+        .schedule-btn {
+            font-size: 0.5rem;
+            border: 1px solid #fff;
+            height: 2rem;
+        }
 }
 
 @media screen and (max-width: 750px) {
@@ -296,6 +292,10 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         display:flex;
         flex-direction: column;
         margin: 0 2rem;
+    }
+
+    .boarding_pass_container {
+        margin: 6rem 0 1rem 0;
     }
 
     .schedule_info_container{
@@ -331,7 +331,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     }
 
     .schedule-btn {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
         border: 1px solid #fff;
         height: 2rem;
     }
@@ -388,9 +388,18 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     #speakers-coming-soon {
         width:100%;
     }
+
+    /* Background */
+    #top-right-plane {
+        display:none;
+    }
+    
+    #box-lines {
+        display:none;
+    }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 500px) {
     .schedule__title {
         font-family: 'Nulshock';
         font-size: 1rem;
@@ -431,5 +440,14 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         transform: rotate(90deg);
         padding: 1rem 0;
         height: 3rem;
+    }
+
+/* Background */
+    #top-right-plane {
+        display:none;
+    }
+    
+    #box-lines {
+        display:none;
     }
 }

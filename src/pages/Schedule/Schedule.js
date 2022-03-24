@@ -6,15 +6,9 @@ import Button from '../../components/Button';
 import Ticket from '../../components/Ticket'
 
 //Schedule Image Assets
-import LeftTicketBars from './assets/ticket-left-design.svg'
-import plane_right from './assets/plane_right.png'
-import plane from './assets/plane.png'
-import tail from './assets/plane_tail.png'
+import plane from './assets/top-right-plane.png'
 import boxlines from './assets/boxlines.png'
 import arrow from './assets/arrow.svg'
-import wavy_lines from './assets/wavy_lines.png'
-import wavy_lines2 from './assets/wavy_lines2.png'
-import boxes from './assets/boxes.png'
 import MainTicket from './assets/ticket.svg'
 import SpeakersComingSoon from './assets/speakers-coming-soon.svg'
 
@@ -23,22 +17,12 @@ export default function  Schedule(){
         <div className="schedule__container">
             <div className='boarding_pass_container'>
                 <div className="schedule__title boarding__pass">CLAIM YOUR BOARDING PASS NOW!</div>
-
                 <div className='boarding_pass_details'>
                     <div className='boarding_pass_spiel'>Join us as we blast off into the future with students, storytellers, and startup founders 
                     as we become catalysts for change!</div>
-
                     <div className='claim'><Button style='navbar schedule-btn' label='CLAIM YOURS HERE!'></Button> </div>
-
                 </div>
             </div>
-
-        { /* <div className='plane'>
-                <img src={plane} ></img>
-                <img src={tail} className='plane_tail'></img>
-             </div> */}
-
-            {/* <div className='plane'><img src={plane_right}></img></div> */}
             <img src={MainTicket} id="schedule-main-ticket" />
             {/* <div className='Ticket'>
                 <Ticket reversed> 
@@ -62,7 +46,6 @@ export default function  Schedule(){
                     </div>
                 </Ticket>
             </div> */}
-
             <div className='schedule_details'>
                 <div className='schedule__title schedule'>SCHEDULE</div>
                     <div className='schedule_info_container'>
@@ -102,6 +85,11 @@ export default function  Schedule(){
             <div className='bottom_card'>
                 <div className='schedule__title speakers_soon'>SPEAKERS COMING SOON</div>
                 <img src={SpeakersComingSoon} id="speakers-coming-soon" />
+            </div>
+
+            <div className="schedule__bg"> 
+                <img src={plane} id="top-right-plane" />
+                <img src={boxlines} id="box-lines" />
             </div>
         </div>
     )
