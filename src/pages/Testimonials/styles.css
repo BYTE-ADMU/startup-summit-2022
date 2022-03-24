@@ -28,8 +28,8 @@ body {
 
 .testimonials__header p {
     font-family: ObjectivityLight;
-    line-height: 2rem;
-    font-size: 1.15rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
     padding: 2rem 15% 0 15%;
 }
 
@@ -70,6 +70,23 @@ body {
     line-height: 1.55rem;
     text-align: center;
     max-width: 300px;
+}
+
+#bg-star1 {
+    background-color: transparent;
+    position: absolute;
+    top: 2750px;
+    right: 80px;
+    height: 50px;
+}
+
+#bg-star2 {
+    background-color: transparent;
+    position: absolute;
+    top: 2750px;
+    left: 60px;
+    height: 40px;
+    transform: rotate(90deg);
 }
 
 @media screen and (max-width:1120px) {
@@ -121,6 +138,22 @@ body {
         max-width: 250px;
     }
     
+    #bg-star1 {
+        background-color: transparent;
+        position: absolute;
+        top: 2700px;
+        right: 80px;
+        height: 50px;
+    }
+    
+    #bg-star2 {
+        background-color: transparent;
+        position: absolute;
+        top: 2750px;
+        left: 60px;
+        height: 40px;
+        transform: rotate(90deg);
+    }
 }
 
 @media screen and (max-width:840px) {
@@ -143,13 +176,30 @@ body {
     
     .testimonials__header p {
         font-family: ObjectivityLight;
-        line-height: 2rem;
-        font-size: 1rem;
+        line-height: 1.3rem;
+        font-size: 0.9rem;
         padding: 2rem 15% 0 15%;
+    }
+
+    #bg-star1 {
+        background-color: transparent;
+        position: absolute;
+        top: 2700px;
+        right: 80px;
+        height: 50px;
+    }
+    
+    #bg-star2 {
+        background-color: transparent;
+        position: absolute;
+        top: 2700px;
+        left: 60px;
+        height: 40px;
+        transform: rotate(90deg);
     }
 }
 
-@media screen and (max-width:450px){
+@media screen and (max-width:500px){
     .testimonials {
         display: grid;
         grid-template-columns: 1fr;
@@ -169,8 +219,25 @@ body {
     
     .testimonials__header p {
         font-family: ObjectivityLight;
-        line-height: 1.2rem;
-        font-size: 0.75rem;
+        line-height: 1rem;
+        font-size: 0.65rem;
         padding: 1.4rem 15% 0 15%;
+    }
+
+    #bg-star1 {
+        background-color: transparent;
+        position: absolute;
+        top: 2570px;
+        right: 60px;
+        height: 35px;
+    }
+    
+    #bg-star2 {
+        background-color: transparent;
+        position: absolute;
+        top: 2600px;
+        left: 40px;
+        height: 30px;
+        transform: rotate(110deg);
     }
 }

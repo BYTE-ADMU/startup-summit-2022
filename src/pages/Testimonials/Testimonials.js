@@ -1,7 +1,9 @@
 import React from 'react';
 import './styles.css';
 
+// Testimonials Image Assets
 import TestimonialPicture from '../../components/Testimonials/TestimonialPicture';
+import Star from './assets/star.png'
 
 export default function Testimonials(){
     return (
@@ -85,6 +87,10 @@ export default function Testimonials(){
                         Neque id lorem ultrices  
                     </p>
                 </div>
+            </div>
+            <div className="bg__container">
+                <img src={Star} id="bg-star1" />
+                <img src={Star} id="bg-star2" />
             </div>
         </div>
     )
