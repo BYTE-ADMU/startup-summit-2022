@@ -7,6 +7,9 @@ import NowBoarding from './assets/landing__nowboarding.svg'
 import MainLogo from './assets/landing__mainlogo.svg'
 import Circles from './assets/landing__bg-circles.svg'
 import YellowPlane from './assets/landing__bg-yellow-plane.png'
+import LeftPlane from './assets/landing__bg-left-plane.png'
+import RightPlane from './assets/landing__bg-right-plane.png'
+
 
 export default function Landing(){
     return (
@@ -24,6 +27,8 @@ export default function Landing(){
                 </div>
             </div>
             <div className="landing__bg">
+                <img id="landing__leftplane" src={LeftPlane} />
+                <img id="landing__rightplane" src={RightPlane} />
                 <img id="landing__circle1" src={Circles} />
                 <img id="landing__circle2" src={Circles} />
                 {/* the bars are located in app.js so that it continues onto the about section */}
