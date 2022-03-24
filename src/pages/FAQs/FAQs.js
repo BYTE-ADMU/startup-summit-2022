@@ -54,7 +54,7 @@ const data = [
 
 const FAQs = () => {
     return (
-        <div className="faq__container">
+        <div className="faq__container" id="faqs">
             {/* ABSOLUTE IMAGES */}
             <img src={leftShard} className="shard left" alt="Background" />
             <img src={rightShard} className="shard right" alt="Background" />

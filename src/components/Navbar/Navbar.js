@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Button from '../Button';
-import { Link } from 'react-router-dom';
 import './styles.css';
 
 // Navbar Icons
@@ -8,48 +7,52 @@ import SUSLogo from '../../assets/nav__sus-logo.svg';
 import Burger from '../../assets/nav__burger.svg';
 import Exit from '../../assets/nav__exit.svg';
 
-//Website Sections
-import Landing from '../../pages/Landing/Landing';
-import About from '../../pages/About/About';
+function Navbar() {
+    const [colorChange, setColorchange] = useState(false);
+    const changeNavbarColor = () =>{
+        if(window.scrollY >= 80){
+            setColorchange(true);
+        }
+        else{
+            setColorchange(false);
+        }
+    };
+    window.addEventListener('scroll', changeNavbarColor);
 
-function Navbar(){
     const [click, setClick] = useState(false);
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
     return (
-        <nav className='nav'>  
-            <Link to={location => ({ ...location, pathname: "../../pages/Landing/Landing" })}
-                    className='nav__sus-logo'>
+        <nav className={`nav ${colorChange ? "scroll" : null}`}>  
+            <a href="#" className='nav__sus-logo'>
                  <img src={SUSLogo} alt="Startup Summit 2022"></img>
-            </Link>
+            </a>
             
             <div className="nav__burger" onClick={handleClick}>
-                <img src={Burger} />
+                <img src={click ? Exit : Burger} />
             </div>
             <ul className={click ? 'nav__menu active' : 'nav__menu'}>
                 <li className="nav__item">
-                    <Link to={location => ({ ...location, pathname: "../../pages/About/About" })}
-                        className='nav__links' onClick={closeMobileMenu}>
+                    <a href="#" className='nav__links' onClick={closeMobileMenu}>
                         Home
-                    </Link>
+                    </a>
                 </li>
                 <li className="nav__item">
-                <Link to="/about"
-                    className='nav__links' onClick={closeMobileMenu}>
+                <a href="#about" className='nav__links' onClick={closeMobileMenu}>
                         About
-                    </Link>
+                    </a>
                 </li>
                 <li className="nav__item">
-                    <Link to='/schedule' className='nav__links' onClick={closeMobileMenu}>
+                    <a href="#schedule" className='nav__links' onClick={closeMobileMenu}>
                         Schedule
-                    </Link>
+                    </a>
                 </li>
                 <li className="nav__item">
-                    <Link to='/faqs' className='nav__links' onClick={closeMobileMenu}>
-                    FAQs
-                    </Link>
+                    <a href="#faqs" className='nav__links' onClick={closeMobileMenu}>
+                        FAQs
+                    </a>
                 </li>
                 <li className="nav__item">
                     <Button style="navbar" label="Register" href="https://tinyurl.com/SUS2022RegForm/" />

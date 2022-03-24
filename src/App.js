@@ -1,10 +1,9 @@
 import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 
 //Components
 import Navbar from './components/Navbar/Navbar';
-import Ticket from './components/Ticket';
 //import Footer from './components/Footer';
 
 //Pages
@@ -34,7 +33,7 @@ function App() {
       </Router>
       <body>
         <Landing />
-        <img id="landing__bars" src={Bars} />
+        <img id="landing__bars" src={Bars} alt="Bars" />
         <About />
         <Schedule />
         <Testimonials />

@@ -2,19 +2,19 @@ import React from 'react'
 import './styles.css'
 import Button from '../../components/Button';
 
-//Ticket Component
+// Ticket Component
 import Ticket from '../../components/Ticket'
 
-//Schedule Image Assets
+// Schedule Image Assets
 import plane from './assets/top-right-plane.png'
 import boxlines from './assets/boxlines.png'
 import arrow from './assets/arrow.svg'
 import MainTicket from './assets/ticket.svg'
 import SpeakersComingSoon from './assets/speakers-coming-soon.svg'
 
-export default function  Schedule(){
+export default function Schedule(){
     return (
-        <div className="schedule__container">
+        <div className="schedule__container" id="schedule">
             <div className='boarding_pass_container'>
                 <div className="schedule__title boarding__pass">CLAIM YOUR BOARDING PASS NOW!</div>
                 <div className='boarding_pass_details'>
