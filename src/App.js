@@ -31,24 +31,16 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        {/* <Container>
-          <Route path='/home' component={Landing} />
-          <Route path='/about' component={About} />
-          <Route path='/schedule' component={Schedule} />
-          <Route path='/faqs' component={FAQs} />
-        </Container> */}
       </Router>
       <body>
         <Landing />
-          <img id="landing__bars" src={Bars} />
-          <Router>
-            <About />
-          </Router>
-          <Schedule />
+        <img id="landing__bars" src={Bars} />
+        <About />
+        <Schedule />
         <Testimonials />
         {/* <Startups /> */}
         <AboutByte />
-        {/* <FAQs /> */}
+        <FAQs />
       </body>
     </div>
   );
