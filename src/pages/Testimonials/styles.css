@@ -61,6 +61,8 @@ body {
 
 .testimonial-details h2 {
     font-size: 1.5rem;
+    width: 245px;
+    line-height: 1.5rem;
 }
 
 .testimonial-body {
@@ -72,6 +74,12 @@ body {
     max-width: 300px;
 }
 
+#testimonials-picture {
+    width: 200px;
+    height: 200px;
+}
+
+/* Backgrounds */
 #bg-star1 {
     background-color: transparent;
     position: absolute;
@@ -136,6 +144,11 @@ body {
         line-height: 1.4rem;
         text-align: center;
         max-width: 250px;
+    }
+
+    #testimonials-picture {
+        width: 180px;
+        height: 180px;
     }
     
     #bg-star1 {
@@ -239,5 +252,20 @@ body {
         left: 40px;
         height: 30px;
         transform: rotate(110deg);
+    }
+
+    #testimonials-picture {
+        width: 140px;
+        height: 140px;
+    }
+
+    .testimonial-details h1 {
+        font-family: ObjectivityRegular;
+        font-size: 0.875rem;
+    }
+
+    .testimonial-details h2 {
+        font-family: ObjectivityRegular;
+        font-size: 0.875rem;
     }
 }
