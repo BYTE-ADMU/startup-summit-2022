@@ -59,9 +59,11 @@
 }
 }
 
-@media screen and (max-width:450px){
+@media screen and (max-width:500px){
   /* Backgrounds that intersect sections */
 #landing__bars {
-  display:none;
+  display:block;
+  height: 300px;
+  top: 370px;
 }
 }

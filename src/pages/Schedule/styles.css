@@ -13,7 +13,7 @@
     font-size: 2.5rem;
     margin-bottom: 3rem;
     color: #FAFAFA;
-    text-align: left;
+    text-align: center;
 }
 
 .boarding_pass_details{
@@ -37,12 +37,13 @@
 
 .schedule-btn {
     border: 4px solid #fff;
+    margin-left: 2rem;
 }
 
 .boarding_pass_spiel{
-    max-width: 40rem;
+    max-width: 35rem;
     align-items: center;
-    font-family: 'Objectivity';
+    font-family: ObjectivityMedium;
     font-size: 1.5rem;
     line-height: 1.75rem;
     color: #FAFAFA;
@@ -115,7 +116,7 @@
 }
 
 .schedule_details {
-    margin: 4rem 0 0 5rem;
+    margin: 4rem 0;
 }
 
 .schedule {
@@ -123,8 +124,6 @@
     font-size: 2.5rem;
     margin-bottom: 2.5rem;
     width: 100%;
-    text-align: left;
-
 /* White */
 color: #FAFAFA;
 }
@@ -138,14 +137,16 @@ color: #FAFAFA;
 
 .date {
     font-size: 1.25rem;
+    text-align: left;
 }
 
 .date_info {
     font-size: 1.2rem;
+    text-align: left;
 }
 
 .date{
-    font-family: 'Objectivity';
+    font-family: ObjectivityLight;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -154,7 +155,7 @@ color: #FAFAFA;
 }
 
 .date_info{
-    font-family: 'Objectivity';
+    font-family: ObjectivityLight;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -202,7 +203,6 @@ color: #FAFAFA;
         font-size: 2rem;
         margin-bottom: 2rem;
         color: #FAFAFA;
-        text-align: left;
     }
 
     .boarding__pass {
@@ -212,7 +212,7 @@ color: #FAFAFA;
     .boarding_pass_spiel{
         max-width: 30rem;
         align-items: center;
-        font-family: 'Objectivity';
+        font-family: ObjectivityMedium;
         font-size: 1.1rem;
         line-height: 1.5rem;
         padding: 0.8rem 0 0 0;
@@ -220,9 +220,10 @@ color: #FAFAFA;
     }
 
     .schedule-btn {
-        font-size: 0.75rem;
+        font-size: 1rem;
         border: 2px solid #fff;
         margin: 0.8rem 0 0 1.8rem;
+        height:auto;
     }
 
     .schedule_details {
@@ -256,7 +257,7 @@ color: #FAFAFA;
     #top-right-plane {
         background-color: transparent;
         position: absolute;
-        top: 1650px;
+        top: 1550px;
         right: -100px;
         height: 20%;
     }
@@ -299,25 +300,26 @@ color: #FAFAFA;
     .schedule__title {
         font-family: 'Nulshock';
         font-size: 1.2rem;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
         color: #FAFAFA;
-        text-align: left;
     }
 
     .boarding_pass_spiel{
         max-width: 20rem;
         align-items: center;
-        font-family: 'Objectivity';
+        font-family: ObjectivityMedium;
         font-size: .8rem;
         line-height: 1rem;
         color: #FAFAFA;
     }
 
     .schedule-btn {
-        font-size: 0.6rem;
-        border: 1px solid #fff;
-        height: 2rem;
+        font-size: 0.7rem;
+        border: 2px solid #fff;
+        margin: 0.8rem 0 0 1.8rem;
+        height:auto;
     }
+
 
     .Ticket{
         width: 35rem;
@@ -384,9 +386,8 @@ color: #FAFAFA;
     .schedule__title {
         font-family: 'Nulshock';
         font-size: 1rem;
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
         color: #FAFAFA;
-        text-align: left;
     }
 
     .boarding_pass_details{
@@ -396,7 +397,7 @@ color: #FAFAFA;
     .boarding_pass_spiel{
         max-width: 12rem;
         align-items: center;
-        font-family: 'Objectivity';
+        font-family: ObjectivityMedium;
         font-size: .7rem;
         line-height: 1rem;
         color: #FAFAFA;

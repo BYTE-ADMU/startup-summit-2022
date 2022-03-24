@@ -18,8 +18,8 @@ export default function AboutByte(){
                 <img src={AboutByteImage} id="aboutbyte__image" />
                 <div className="aboutbyte__text">
                     <p>BYTE, the home organization for B.S. Information Technology Entrepreneurship course, is an independent organization under LIONS.</p>
-                    <p>We strive to help our members develop technological skills and entrepreneurial principles in an inclusive, fun and welcoming environment, and to promote tech entrepreneurship inside and outside of the Ateneo De Manila University.</p>
-                    <p>BYTE envisions itself to be a technological and entrepreneurial network spearheaded by existing and potential catalysts for change.</p>
+                    <br></br><p>We strive to help our members develop technological skills and entrepreneurial principles in an inclusive, fun and welcoming environment, and to promote tech entrepreneurship inside and outside of the Ateneo De Manila University.</p>
+                    <br></br><p>BYTE envisions itself to be a technological and entrepreneurial network spearheaded by existing and potential catalysts for change.</p>
                 </div>
             </div>
             <div className="aboutbyte__bg">

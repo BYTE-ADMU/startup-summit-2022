@@ -53,5 +53,11 @@ function App() {
     </div>
   );
 }
+// sticky nav, 
+//fix designs for about byte, 
+//align left all text
+//aidan n team will adjust boarding pass copy,
+//claim yours here button changes to another word
+// 
 
 export default App;
