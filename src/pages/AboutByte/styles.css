@@ -22,11 +22,15 @@
     align-self: center;
 }
 
+.aboutbyte__text {
+    width: 100%;
+    padding: 2rem 6rem;
+}
+
 .aboutbyte__text p{
     font-family: ObjectivityLight;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.75rem;
-    max-width: 37.5rem;
     text-align: left;
 }
 
@@ -42,12 +46,17 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        margin: 12rem 0 0 0;
+        margin: 8rem 0 0 0;
+    }
+
+    .aboutbyte__text {
+        width: 100%;
+        padding: 0 10rem;
     }
     
     .aboutbyte__text p{
         font-family: ObjectivityLight;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         line-height: 1.6rem;
         width: 100%;
         text-align: center;
@@ -61,7 +70,7 @@
 
 @media screen and (max-width: 920px) {
     .aboutbyte__header {
-        font-size: 2rem;
+        font-size: 1.75rem;
         margin-bottom: 0.4rem;
         padding: 0 3rem;
     }
@@ -72,7 +81,11 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        margin: 7rem 0 0 0;
+        margin: 5rem 0 0 0;
+    }
+    
+    .aboutbyte__text {
+        padding: 0;
     }
     
     .aboutbyte__text p{
@@ -81,12 +94,11 @@
         line-height: 1.6rem;
         width: 100%;
         text-align: center;
-        margin: 1rem;
+        padding: 0 2rem;
     }
 
     #aboutbyte__image {
         width: 17rem;
-        margin: rem 0;
     }
 }
 
