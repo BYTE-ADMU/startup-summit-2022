@@ -8,7 +8,7 @@ import './styles.css';
 
 // use "= ({ properties })" to pass different properties along components (See Navbar.js for a sample usage of the button component)
 const Button = ({
-    style,
+    variant,
     label,
     link,
     ...props
@@ -20,13 +20,13 @@ const Button = ({
                 ?
                     // this is the code if link is available
                     <Link to={link} className="default-btn-link"> 
-                        <button className={`default-btn ${style} ${props.className}`} {...props}>
+                        <button className={`default-btn ${variant} ${props.className}`} {...props}>
                             {label}
                         </button>
                     </Link>
                 :
                     // else -- this is the code if link is not available
-                    <button className={`default-btn ${style} ${props.className}`} {...props}>
+                    <button className={`default-btn ${variant} ${props.className}`} {...props}>
                         {label}
                     </button>
             }

@@ -26,16 +26,16 @@ function Navbar() {
 
     return (
         <nav className={`nav ${colorChange ? "scroll" : null}`}>  
-            <a href="#" className='nav__sus-logo'>
+            <a href="/#" className='nav__sus-logo'>
                  <img src={SUSLogo} alt="Startup Summit 2022"></img>
             </a>
             
             <div className="nav__burger" onClick={handleClick}>
-                <img src={click ? Exit : Burger} />
+                <img src={click ? Exit : Burger} alt="Burger Menu" />
             </div>
             <ul className={click ? 'nav__menu active' : 'nav__menu'}>
                 <li className="nav__item">
-                    <a href="#" className='nav__links' onClick={closeMobileMenu}>
+                    <a href="/#" className='nav__links' onClick={closeMobileMenu}>
                         Home
                     </a>
                 </li>
@@ -55,7 +55,7 @@ function Navbar() {
                     </a>
                 </li>
                 <li className="nav__item">
-                    <Button style="navbar" label="Register" href="https://tinyurl.com/SUS2022RegForm/" />
+                    <Button variant="navbar" label="Register" href="https://tinyurl.com/SUS2022RegForm/" />
                 </li>
             </ul>
         </nav>

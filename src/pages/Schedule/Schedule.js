@@ -3,7 +3,7 @@ import './styles.css'
 import Button from '../../components/Button';
 
 // Ticket Component
-import Ticket from '../../components/Ticket'
+// import Ticket from '../../components/Ticket'
 
 // Schedule Image Assets
 import plane from './assets/top-right-plane.png'
@@ -20,10 +20,10 @@ export default function Schedule(){
                 <div className='boarding_pass_details'>
                     <div className='boarding_pass_spiel'>Join us as we blast off into the future with students, storytellers, and startup founders 
                     as we become catalysts for change!</div>
-                    <div className='claim'><Button style='navbar schedule-btn' label='CLAIM YOURS HERE!'></Button> </div>
+                    <div className='claim'><Button variant='navbar schedule-btn' label='CLAIM YOURS HERE!'></Button> </div>
                 </div>
             </div>
-            <img src={MainTicket} id="schedule-main-ticket" />
+            <img src={MainTicket} id="schedule-main-ticket" alt="Ticket" />
             {/* <div className='Ticket'>
                 <Ticket reversed> 
                     <div className="ticket__container">
@@ -56,7 +56,7 @@ export default function Schedule(){
                                     <div>3:00 - 5:15 PM</div>
                                 </div>
                             </div>
-                                <img src={arrow} id="schedule__arrow-icon" />
+                                <img src={arrow} id="schedule__arrow-icon" alt="Arrow" />
                             <div className='schedule_info'>
                                 <div className='date'>Day 2 - April 7, 2022</div>
                                 <div className='date_info'>
@@ -64,7 +64,7 @@ export default function Schedule(){
                                     <div>3:00 - 5:15 PM</div>
                                 </div>
                             </div>
-                                <img src={arrow} id="schedule__arrow-icon" />
+                                <img src={arrow} id="schedule__arrow-icon" alt="Arrow" />
                             <div className='schedule_info'>
                                 <div className='date'>Day 3 - April 8, 2022</div>
                                 <div className='date_info'>
@@ -72,7 +72,7 @@ export default function Schedule(){
                                     <div>3:00 - 6:00 PM</div>
                                 </div>
                             </div>
-                                <img src={arrow} id="schedule__arrow-icon" />
+                                <img src={arrow} id="schedule__arrow-icon" alt="Arrow" />
                             <div className='schedule_info'>
                                 <div className='date'>Day 4 - April 9, 2022</div>
                                 <div className='date_info'>
@@ -84,12 +84,12 @@ export default function Schedule(){
             </div>
             <div className='bottom_card'>
                 <div className='schedule__title speakers_soon'>SPEAKERS COMING SOON</div>
-                <img src={SpeakersComingSoon} id="speakers-coming-soon" />
+                <img src={SpeakersComingSoon} id="speakers-coming-soon" alt="Speakers" />
             </div>
 
             <div className="schedule__bg"> 
-                <img src={plane} id="top-right-plane" />
-                <img src={boxlines} id="box-lines" />
+                <img src={plane} id="top-right-plane" alt="Plane" />
+                <img src={boxlines} id="box-lines" alt="Box Lines" />
             </div>
         </div>
     )
