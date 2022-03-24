@@ -7,7 +7,7 @@
 nav {
     background-color: #121C25; /*make this transparent when landing is made*/
     height: 80px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
 }
@@ -104,7 +104,7 @@ li {
         grid-gap: 10px;
         list-style: none;
         text-align: center;
-        width: 100vw;
+        width: 100%;
         justify-content: end;
         margin-right: 1rem;
     }
