@@ -1,7 +1,7 @@
 .aboutbyte__container {
     height: 100vh;
     width: 100vw;
-    margin: 2rem 0 0 0;
+    margin: 2.5rem 0;
 }
 
 .aboutbyte__header {
@@ -31,7 +31,23 @@
     font-family: ObjectivityLight;
     font-size: 1.2rem;
     line-height: 1.75rem;
-    text-align: left;
+    text-decoration: left;
+}
+
+#aboutbyte-bg-dots {
+    background-color: transparent;
+    position: absolute;
+    top: 4500px;
+    right: 0;
+    height: 100px;
+}
+
+#aboutbyte-bg-bars {
+    background-color: transparent;
+    position: absolute;
+    top: 4440px;
+    left: -140px;
+    height: 80px;
 }
 
 @media screen and (max-width: 1120px) {
@@ -64,7 +80,25 @@
     }
 
     #aboutbyte__image {
-        width: 20rem;
+        width: 23rem;
+        z-index: 1;
+        background-color: transparent;
+    }
+
+    #aboutbyte-bg-dots {
+        background-color: transparent;
+        position: absolute;
+        top: 4000px;
+        right: 50px;
+        height: 100px;
+    }
+    
+    #aboutbyte-bg-bars {
+        background-color: transparent;
+        position: absolute;
+        top: 4360px;
+        left: -140px;
+        height: 70px;
     }
 }
 
@@ -100,6 +134,18 @@
     #aboutbyte__image {
         width: 17rem;
     }
+    
+    #aboutbyte-bg-dots {
+        display: none;
+    }
+    
+    #aboutbyte-bg-bars {
+        background-color: transparent;
+        position: absolute;
+        top: 4250px;
+        left: -100px;
+        height: 60px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -129,5 +175,9 @@
     #aboutbyte__image {
         width: 12rem;
         margin: 1rem 0;
+    }
+
+    #aboutbyte-bg-bars {
+        display:none;
     }
 }

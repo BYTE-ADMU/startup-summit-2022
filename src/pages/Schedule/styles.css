@@ -155,11 +155,11 @@ color: #FAFAFA;
 
 .date_info{
     font-family: 'Objectivity';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 120%;
-color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: white;
 }
 
 .speakers_soon { margin: 2rem 0 4rem 0; }

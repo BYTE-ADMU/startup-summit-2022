@@ -8,6 +8,10 @@ import SUSLogo from '../../assets/nav__sus-logo.svg';
 import Burger from '../../assets/nav__burger.svg';
 import Exit from '../../assets/nav__exit.svg';
 
+//Website Sections
+import Landing from '../../pages/Landing/Landing';
+import About from '../../pages/About/About';
+
 function Navbar(){
     const [click, setClick] = useState(false);
 
@@ -25,22 +29,29 @@ function Navbar(){
             </div>
             <ul className={click ? 'nav__menu active' : 'nav__menu'}>
                 <li className="nav__item">
-                    <Link to='/' className='nav__links' onClick={closeMobileMenu}>
+                    <Link to='/Home'
+                        className='nav__links' onClick={closeMobileMenu}>
                         Home
                     </Link>
                 </li>
                 <li className="nav__item">
-                    <Link to='/' className='nav__links' onClick={closeMobileMenu}>
+                <Link to="/About" component={About}
+                    className='nav__links' onClick={closeMobileMenu}>
+                        About
+                    </Link>
+                </li>
+                <li className="nav__item">
+                    <Link to='/Schedule' className='nav__links' onClick={closeMobileMenu}>
                         Schedule
                     </Link>
                 </li>
                 <li className="nav__item">
-                    <Link to='/' className='nav__links' onClick={closeMobileMenu}>
-                        Startups
+                    <Link to='/FAQs' className='nav__links' onClick={closeMobileMenu}>
+                    FAQs
                     </Link>
                 </li>
                 <li className="nav__item">
-                    <Button style="navbar" label="Register" link="register" />
+                    <Button style="navbar" label="Register" href="https://tinyurl.com/SUS2022RegForm/" />
                 </li>
             </ul>
         </nav>
