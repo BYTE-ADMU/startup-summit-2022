@@ -270,23 +270,6 @@ color: #FAFAFA;
     }
 }
 
-@media screen and (min-width:750px) and (max-width: 1200px) {
-        /* Background */
-        #top-right-plane {
-            display:none;
-        }
-    
-        #box-lines {
-            display:none;
-        }
-
-        .schedule-btn {
-            font-size: 0.5rem;
-            border: 1px solid #fff;
-            height: 2rem;
-        }
-}
-
 @media screen and (max-width: 750px) {
     .schedule__container {
         display:flex;

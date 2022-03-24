@@ -1,5 +1,6 @@
 import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
 
 //Components
 import Navbar from './components/Navbar/Navbar';
@@ -11,7 +12,7 @@ import Landing from './pages/Landing/Landing';
 import About from './pages/About/About';
 import Schedule from './pages/Schedule/Schedule';
 import Testimonials from './pages/Testimonials/Testimonials';
-
+// Startups page goes here
 import AboutByte from './pages/AboutByte/AboutByte';
 import FAQs from  './pages/FAQs/FAQs';
 
@@ -30,16 +31,24 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
+        {/* <Container>
+          <Route path='/home' component={Landing} />
+          <Route path='/about' component={About} />
+          <Route path='/schedule' component={Schedule} />
+          <Route path='/faqs' component={FAQs} />
+        </Container> */}
       </Router>
       <body>
         <Landing />
           <img id="landing__bars" src={Bars} />
-          <About />
+          <Router>
+            <About />
+          </Router>
           <Schedule />
         <Testimonials />
         {/* <Startups /> */}
         <AboutByte />
-        <FAQs />
+        {/* <FAQs /> */}
       </body>
     </div>
   );

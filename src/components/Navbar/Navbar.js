@@ -20,7 +20,8 @@ function Navbar(){
 
     return (
         <nav className='nav'>  
-            <Link to='/' className='nav__sus-logo'>
+            <Link to={location => ({ ...location, pathname: "../../pages/Landing/Landing" })}
+                    className='nav__sus-logo'>
                  <img src={SUSLogo} alt="Startup Summit 2022"></img>
             </Link>
             
@@ -29,24 +30,24 @@ function Navbar(){
             </div>
             <ul className={click ? 'nav__menu active' : 'nav__menu'}>
                 <li className="nav__item">
-                    <Link to='/Home'
+                    <Link to={location => ({ ...location, pathname: "../../pages/About/About" })}
                         className='nav__links' onClick={closeMobileMenu}>
                         Home
                     </Link>
                 </li>
                 <li className="nav__item">
-                <Link to="/About" component={About}
+                <Link to="/about"
                     className='nav__links' onClick={closeMobileMenu}>
                         About
                     </Link>
                 </li>
                 <li className="nav__item">
-                    <Link to='/Schedule' className='nav__links' onClick={closeMobileMenu}>
+                    <Link to='/schedule' className='nav__links' onClick={closeMobileMenu}>
                         Schedule
                     </Link>
                 </li>
                 <li className="nav__item">
-                    <Link to='/FAQs' className='nav__links' onClick={closeMobileMenu}>
+                    <Link to='/faqs' className='nav__links' onClick={closeMobileMenu}>
                     FAQs
                     </Link>
                 </li>

@@ -58,25 +58,25 @@ export default function  Schedule(){
                             </div>
                                 <img src={arrow} id="schedule__arrow-icon" />
                             <div className='schedule_info'>
-                                <div className='date'>Day 1 - April 6, 2022</div>
+                                <div className='date'>Day 2 - April 7, 2022</div>
                                 <div className='date_info'>
-                                    <div>Ideating a Startup</div>
+                                    <div>Building a Startup</div>
                                     <div>3:00 - 5:15 PM</div>
                                 </div>
                             </div>
                                 <img src={arrow} id="schedule__arrow-icon" />
                             <div className='schedule_info'>
-                                <div className='date'>Day 1 - April 6, 2022</div>
+                                <div className='date'>Day 3 - April 8, 2022</div>
                                 <div className='date_info'>
-                                    <div>Ideating a Startup</div>
-                                    <div>3:00 - 5:15 PM</div>
+                                    <div>Growing a Startup</div>
+                                    <div>3:00 - 6:00 PM</div>
                                 </div>
                             </div>
                                 <img src={arrow} id="schedule__arrow-icon" />
                             <div className='schedule_info'>
-                                <div className='date'>Day 1 - April 6, 2022</div>
+                                <div className='date'>Day 4 - April 9, 2022</div>
                                 <div className='date_info'>
-                                    <div>Ideating a Startup</div>
+                                    <div>Networking Day</div>
                                     <div>3:00 - 5:15 PM</div>
                                 </div>
                             </div>

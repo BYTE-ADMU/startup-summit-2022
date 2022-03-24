@@ -53,7 +53,7 @@
 @media screen and (max-width: 1120px) {
     .aboutbyte__header {
         font-size: 2rem;
-        padding: 0 2rem;
+        padding: 2rem;
     }
 
     .aboutbyte__content {
@@ -98,7 +98,7 @@
         position: absolute;
         top: 4360px;
         left: -140px;
-        height: 70px;
+        height: 60px;
     }
 }
 
