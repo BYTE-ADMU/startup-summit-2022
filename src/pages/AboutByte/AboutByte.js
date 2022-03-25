@@ -15,7 +15,7 @@ export default function AboutByte(){
                 BUILDING YOUNG TECH ENTREPRENEURS
             </h1>
             <div className="aboutbyte__content">
-                <img src={AboutByteImage} id="aboutbyte__image" />
+                <img src={AboutByteImage} id="aboutbyte__image" alt="about-byte-img"/>
                 <div className="aboutbyte__text">
                     <p>BYTE, the home organization for B.S. Information Technology Entrepreneurship course, is an independent organization under LIONS.</p>
                     <br></br><p>We strive to help our members develop technological skills and entrepreneurial principles in an inclusive, fun and welcoming environment, and to promote tech entrepreneurship inside and outside of the Ateneo De Manila University.</p>
@@ -23,8 +23,8 @@ export default function AboutByte(){
                 </div>
             </div>
             <div className="aboutbyte__bg">
-                <img src={Dots} id="aboutbyte-bg-dots" />
-                <img src={Bars} id="aboutbyte-bg-bars" />
+                <img src={Dots} id="aboutbyte-bg-dots" alt="about-byte-design" />
+                <img src={Bars} id="aboutbyte-bg-bars" alt="about-byte-design"/>
             </div>
         </div>
     )

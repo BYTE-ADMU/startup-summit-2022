@@ -2,7 +2,6 @@ import React from 'react';
 import './styles.css';
 
 // Testimonials Image Assets
-import TestimonialPicture from '../../components/Testimonials/TestimonialPicture';
 import Star from './assets/star.png'
 import samantha from './assets/samantha.png'
 import tres from './assets/tres.png'
@@ -19,7 +18,7 @@ export default function Testimonials(){
             </div>
             <div className='testimonials'>
                 <div className='testimonials__testimonial'>
-                    <img src={samantha} id="testimonials-picture" />
+                    <img src={samantha} id="testimonials-picture" alt="testimonials-pfp"/>
                     <div className='testimonial-details'>
                         <h1>Samantha See</h1>
                         <h2>Startup Summit 2022 Programs Dept. Head</h2>
@@ -29,7 +28,7 @@ export default function Testimonials(){
                     </p>
                 </div>
                 <div className='testimonials__testimonial'>
-                <img src={justine} id="testimonials-picture" />
+                <img src={justine} id="testimonials-picture" alt="testimonials-pfp"/>
                     <div className='testimonial-details'>
                         <h1>Justine Ngo</h1>
                         <h2>Startup Summit 2022 Project Head</h2>
@@ -39,7 +38,7 @@ export default function Testimonials(){
                     </p>
                 </div>
                 <div className='testimonials__testimonial'>
-                <img src={javi} id="testimonials-picture" />
+                <img src={javi} id="testimonials-picture" alt="testimonials-pfp"/>
                     <div className='testimonial-details'>
                         <h1>Javi Ko</h1>
                         <h2>Startup Summit 2021 Project Head</h2>
@@ -49,7 +48,7 @@ export default function Testimonials(){
                     </p>
                 </div>
                 <div className='testimonials__testimonial'>
-                <img src={kirsten} id="testimonials-picture" />
+                <img src={kirsten} id="testimonials-picture" alt="testimonials-pfp" />
                     <div className='testimonial-details'>
                         <h1>Kirsten Sayson</h1>
                         <h2>Startup Summit 2022 Content Team Member</h2>
@@ -59,7 +58,7 @@ export default function Testimonials(){
                     </p>
                 </div>
                 <div className='testimonials__testimonial'>
-                <img src={julianne} id="testimonials-picture" />
+                <img src={julianne} id="testimonials-picture" alt="testimonials-pfp" />
                     <div className='testimonial-details'>
                         <h1>Julianne Ysrael</h1>
                         <h2>Startup Summit 2021 Externals Team Member</h2>
@@ -69,7 +68,7 @@ export default function Testimonials(){
                     </p>
                 </div>
                 <div className='testimonials__testimonial'>
-                <img src={tres} id="testimonials-picture" />
+                <img src={tres} id="testimonials-picture" alt="testimonials-pfp" />
                     <div className='testimonial-details'>
                         <h1>Tres Nocos</h1>
                         <h2>Startup Summit 2021 Participant</h2>
@@ -80,8 +79,8 @@ export default function Testimonials(){
                 </div>
             </div>
             <div className="bg__container">
-                <img src={Star} id="bg-star1" />
-                <img src={Star} id="bg-star2" />
+                <img src={Star} id="bg-star1" alt="testimonials-design"/>
+                <img src={Star} id="bg-star2" alt="testimonials-design"/>
             </div>
         </div>
     )
