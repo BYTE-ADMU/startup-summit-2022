@@ -16,11 +16,10 @@ export default function Schedule(){
     return (
         <div className="schedule__container" id="schedule">
             <div className='boarding_pass_container'>
-                <div className="schedule__title boarding__pass">CLAIM YOUR BOARDING PASS NOW!</div>
+                <div className="schedule__title boarding__pass">TAKE OFF INTO YOUR FUTURE!</div>
                 <div className='boarding_pass_details'>
-                    <div className='boarding_pass_spiel'>Join us as we blast off into the future with students, storytellers, and startup founders 
-                    as we become catalysts for change!</div>
-                    <div className='claim'><Button variant='navbar schedule-btn' label='CLAIM YOURS HERE!'></Button> </div>
+                    <div className='boarding_pass_spiel'>Join us as we embark on an exciting journey with students, storytellers, and startup founders as we become catalysts for change!</div>
+                    <div className='claim'><Button variant='navbar schedule-btn' label='REGISTER NOW!'></Button> </div>
                 </div>
             </div>
             <img src={MainTicket} id="schedule-main-ticket" alt="Ticket" />

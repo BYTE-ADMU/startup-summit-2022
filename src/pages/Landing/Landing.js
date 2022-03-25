@@ -21,8 +21,8 @@ export default function Landing(){
                     <p>Launch Your Purpose</p>
                     <p>April 6 - 9, 2022</p>
                         <div class="landing__buttons">
-                            <Button variant="primary landing-button" label="Register" />
-                            <Button variant="secondary landing-button" label="View Schedule" />
+                            <a href="https://tinyurl.com/SUS2022RegForm/" id="landing-register-btn" target="_blank">Register</a>
+                            <a href="#schedule" id="landing-schedule-btn">Schedule</a>
                         </div>
                 </div>
             </div>

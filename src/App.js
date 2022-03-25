@@ -1,10 +1,9 @@
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
-// import { Container } from 'react-bootstrap';
 
 //Components
 import Navbar from './components/Navbar/Navbar';
-//import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 
 //Pages
 import Landing from './pages/Landing/Landing';
@@ -40,15 +39,10 @@ function App() {
         {/* <Startups /> */}
         <AboutByte />
         <FAQs />
+        <Footer />
       </body>
     </div>
   );
 }
-// sticky nav, 
-//fix designs for about byte, 
-//align left all text
-//aidan n team will adjust boarding pass copy,
-//claim yours here button changes to another word
-// 
 
 export default App;
