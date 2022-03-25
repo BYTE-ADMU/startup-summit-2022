@@ -18,6 +18,7 @@
 
 .boarding_pass_details{
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: left;
     margin:  0 0 2rem 0;
@@ -50,8 +51,7 @@
 }
 
 #schedule-main-ticket {
-    width: 90%;
-    max-width: 1000px;
+    width: 100%;
 }
 
 .Ticket{
@@ -150,7 +150,7 @@ color: #FAFAFA;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 160%;
     color: #FFFFFF;
 }
 
@@ -159,8 +159,14 @@ color: #FAFAFA;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 160%;
     color: white;
+}
+
+.mini-detail {
+    font-family: ObjectivityLight, 'sans-serif';
+    font-size: 1rem;
+    padding: 2rem 0 0 0;
 }
 
 .speakers_soon { margin: 2rem 0 4rem 0; }
@@ -178,7 +184,7 @@ color: #FAFAFA;
 #top-right-plane {
     background-color: transparent;
     position: absolute;
-    top: 1550px;
+    top: 1450px;
     right: -100px;
     height: 240px;
 }
@@ -235,7 +241,7 @@ color: #FAFAFA;
     }
 
     #schedule-main-ticket {
-        width: 90%;
+        width: 100%;
         max-width: 1000px;
     }
 
@@ -385,28 +391,31 @@ color: #FAFAFA;
 @media screen and (max-width: 500px) {
     .schedule__title {
         font-family: 'Nulshock';
-        font-size: 1rem;
-        margin-bottom: 1.5rem;
+        font-size: 2rem;
+        margin-bottom: 0.8rem;
         color: #FAFAFA;
     }
 
     .boarding_pass_details{
+        display: flex;
+        flex-direction: column;
         margin: 0;
     }
 
     .boarding_pass_spiel{
-        max-width: 12rem;
+        max-width: 20rem;
         align-items: center;
-        font-family: ObjectivityMedium;
-        font-size: .7rem;
+        font-family: ObjectivityRegular;
+        font-size: 0.875rem;
         line-height: 1rem;
         color: #FAFAFA;
     }
 
     .schedule-btn {
-        font-size: 0.5rem;
-        border: 1px solid #fff;
-        height: 1.56rem;
+        font-size: 1rem;
+        border: 4px solid #fff;
+        padding: 0.6rem;
+        margin: 1.3rem 0;
     }
 
     .date {

@@ -75,11 +75,12 @@ export default function Schedule(){
                             <div className='schedule_info'>
                                 <div className='date'>Day 4 - April 9, 2022</div>
                                 <div className='date_info'>
-                                    <div>Networking Day</div>
-                                    <div>3:00 - 5:15 PM</div>
+                                    <div>*Networking Night</div>
+                                    <div>5:30 - 7:00 PM</div>
                                 </div>
                             </div>
                     </div>
+                <div className='mini-detail'>*Networking Night will be held via Zoom</div>
             </div>
             <div className='bottom_card'>
                 <div className='schedule__title speakers_soon'>SPEAKERS COMING SOON</div>

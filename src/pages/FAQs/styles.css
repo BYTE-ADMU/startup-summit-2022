@@ -74,7 +74,7 @@
     }
     
     .circle.right {
-        right: -50%;
+        right: -60%;
     }
 }
 
@@ -96,6 +96,12 @@
     .faq__wrapper {
         grid-template-columns: 1fr 1fr;
         column-gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .faq--header {
+        margin-top: 4rem;
     }
 }
 

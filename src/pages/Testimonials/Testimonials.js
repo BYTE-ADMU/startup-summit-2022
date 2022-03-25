@@ -15,10 +15,7 @@ export default function Testimonials(){
     return (
         <div className='testimonials__container'>
             <div className='testimonials__header'>
-                <h1>TESTIMONIALS</h1>
-                <p>OUR PARTICIPANT STORIES. <br/>
-                    Learn how participants jumpstarted their startup journeys through Startup Summit.
-                </p>
+                <h1>STORIES FROM THE SUMMMIT</h1>
             </div>
             <div className='testimonials'>
                 <div className='testimonials__testimonial'>

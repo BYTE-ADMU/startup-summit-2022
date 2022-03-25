@@ -6,10 +6,9 @@
 .about__header {
     font-family: 'Nulshock';
     font-size: 2.5rem;
-    margin-bottom: 4rem;
     color: #FAFAFA;
     text-align: center;
-    padding: 0 2rem;
+    padding: 2rem;
 }
 
 .about__content {

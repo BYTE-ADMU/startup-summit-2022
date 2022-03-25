@@ -39,7 +39,9 @@ export default function Footer(){
                         <p>Talks and Panels</p>
                     </div>
                 </div>
-                <Button variant='navbar' id="footer__sticker" label='LAUNCH YOUR PURPOSE!'></Button>
+                    <a href="https://tinyurl.com/SUS2022RegForm/" target="_blank">
+                        <Button variant='navbar' id="footer__sticker" label='LAUNCH YOUR PURPOSE!'></Button>
+                    </a>            
             </div>
             <div className="footer__main-content">
                 <div className="footer__sus-branding">
@@ -65,12 +67,11 @@ export default function Footer(){
                         <a href="https://www.instagram.com/byteadmu/" target="_blank"><img src={Instagram} id="social-media-icon"/></a>
                         <a href="https://twitter.com/byteadmu" target="_blank"><img src={Twitter} id="social-media-icon" /></a>
                         <a href="https://www.linkedin.com/company/byteadmu/mycompany/" target="_blank"><img src={Linkedin} id="social-media-icon" /></a>
-                        <a href="byteadmu@gmail.com" target="_blank"><img src={Email} id="social-media-icon" /></a>
+                        <a href="mailto: byteadmu@gmail.com" target="_blank"><img src={Email} id="social-media-icon" /></a>
                         <a href="https://byteadmu.com/" target="_blank"><img src={Website} id="social-media-icon" /></a>
                     </div>
                 </div>
             </div>
-            
         </div>
     )
 }

@@ -138,7 +138,7 @@ p{
 #landing__yellowplane {
   background-color: transparent;
   position: absolute;
-  bottom: -100px;
+  bottom: -0px;
   left: -20px;
   z-index:0;
   height: 170px;
@@ -173,8 +173,8 @@ p{
   #landing__rightplane {
     background-color: transparent;
     position: absolute;
-    top:140px;
-    right:-60px;
+    top:60px;
+    right:-80px;
     z-index:0;
     height: 170px;
   }
@@ -191,8 +191,8 @@ p{
 #landing__circle2 {
   background-color: transparent;
   position: absolute;
-  top: 90px;
-  right:-120px;
+  top: 0;
+  right:-140px;
   z-index:0;
   height: 300px;
 }
@@ -200,7 +200,7 @@ p{
 #landing__yellowplane {
   background-color: transparent;
   position: absolute;
-  bottom: -120px;
+  bottom: 40px;
   left: -20px;
   z-index:0;
   height: 100px;
@@ -239,7 +239,7 @@ p{
   #landing__rightplane {
     background-color: transparent;
     position: absolute;
-    top:80px;
+    top:40px;
     right:-60px;
     z-index:0;
     height: 150px;
@@ -257,7 +257,7 @@ p{
   #landing__circle2 {
     background-color: transparent;
     position: absolute;
-    top: 70px;
+    top: 30px;
     right:-70px;
     z-index:0;
     height: 180px;
