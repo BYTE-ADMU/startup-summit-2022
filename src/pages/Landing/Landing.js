@@ -1,6 +1,5 @@
 import React from 'react'
 import './styles.css'
-import Button from '../../components/Button';
 
 // Landing Page Image Assets
 import NowBoarding from './assets/landing__nowboarding.svg'
@@ -21,7 +20,7 @@ export default function Landing(){
                     <p>Launch Your Purpose</p>
                     <p>April 6 - 9, 2022</p>
                         <div class="landing__buttons">
-                            <a href="https://tinyurl.com/SUS2022RegForm/" id="landing-register-btn" target="_blank">Register</a>
+                            <a href="https://tinyurl.com/SUS2022RegForm/" id="landing-register-btn" target="_blank" rel="noreferrer">Register</a>
                             <a href="#schedule" id="landing-schedule-btn">Schedule</a>
                         </div>
                 </div>
