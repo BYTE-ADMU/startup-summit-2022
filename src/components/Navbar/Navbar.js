@@ -55,7 +55,9 @@ function Navbar() {
                     </a>
                 </li>
                 <li className="nav__item">
-                    <Button variant="navbar" target="_blank" label="Register" href="https://tinyurl.com/SUS2022RegForm/" />
+                    <a href="https://tinyurl.com/SUS2022RegForm/"target="_blank">
+                        <Button variant="navbar" label="Register" href="https://tinyurl.com/SUS2022RegForm/" />
+                    </a>
                 </li>
             </ul>
         </nav>
