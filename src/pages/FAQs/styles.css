@@ -1,0 +1,129 @@
+.faq__container {
+    height: auto;
+    width: 100%;
+    padding: 10%;
+    position: relative;
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.shard, .circle { 
+    position: absolute;
+    background-color: transparent;
+    overflow:hidden;
+}
+
+.shard.left {
+    top: 5%;
+    left: 0;
+}
+
+.shard.right {
+    bottom: 5%;
+    right: 0;
+}
+
+.circle.left {
+    bottom: 0;
+    left: -45%;
+}
+
+.circle.right {
+    top: 0;
+    right: -45%;
+}
+
+.faq__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 6rem;
+    justify-items: center;
+    align-items: start;
+}
+
+.faq--header {
+    font-family: 'Nulshock', sans-serif;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #FAFAFA;
+
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 4rem 2rem;
+}
+
+@media screen and (min-width: 1920px) {
+    .circle.left {
+        left: -30%;
+    }
+    
+    .circle.right {
+        right: -30%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .circle.left {
+        left: -50%;
+    }
+    
+    .circle.right {
+        right: -60%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .circle.left {
+        bottom: 0;
+        left: -70%;
+    }
+    
+    .circle.right {
+        top: 0;
+        right: -70%;
+    }
+
+    .faq__container {
+        padding: 7.5%;
+    }
+
+    .faq__wrapper {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .faq--header {
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .shard, .circle {
+        display: none;
+    }
+
+    .faq__container {
+        padding: 2rem;
+        margin: 9rem 0 0 0;
+    }
+
+    .faq__wrapper {
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .faq--header {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+}

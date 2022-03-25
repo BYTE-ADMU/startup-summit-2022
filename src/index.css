@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "ObjectivityBold";
+  src: local("ObjectivityBold"),
+   url("./fonts/objectivity/Objectivity-Bold.otf") format("truetype");
+  font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "ObjectivityMedium";
+    src: local("ObjectivityMedium"),
+     url("./fonts/objectivity/Objectivity-Medium.otf") format("truetype");
+    font-weight: medium;
+}
+
+@font-face {
+  font-family: "ObjectivityRegular";
+  src: local("ObjectivityRegular"),
+   url("./fonts/objectivity/Objectivity-Regular.otf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ObjectivityLight";
+  src: local("ObjectivityLight"),
+   url("./fonts/objectivity/Objectivity-Light.otf") format("truetype");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Nulshock";
+  src: local("Nulshock"),
+   url("./fonts/nulshock/nulshock\ bd.ttf") format("truetype");
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Root Variables */
+/* In any part of the code, you can call any root variable by using var(--variable-name) */
+/* i.e. color: var(--primary-color) */
+
+:root {
+  /* COLORS */
+  --primary-color: #F97F3D;
+  --secondary-color: #0B59B6;
+  --button-gradient: linear-gradient(84.28deg, #0B59B6 36.54%, #F97F3D 55.85%, #F2B330 95.45%); /* Used for the Navbar button */
+}
+
+.App {
+  background-color: #121C25;
+}

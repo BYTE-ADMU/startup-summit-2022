@@ -1,0 +1,268 @@
+.about__container {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.about__header {
+    font-family: 'Nulshock';
+    font-size: 2.5rem;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 2rem;
+}
+
+.about__content {
+    height: 100vh;
+    width: 100%;
+    max-height: 23rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+.about__text p {
+    font-family: ObjectivityLight;
+    font-size: 1.3rem;
+    line-height: 1.75rem;
+    max-width: 37.5rem;
+    text-align: left;
+}
+
+#about__image {
+    z-index:1;
+}
+
+/* Background  */
+#about__spirals1 {
+    background-color: transparent;
+    position: absolute;
+    top:900px;
+    left:-140px;
+    z-index:0;
+    height: 550px;
+}
+
+#about__spirals2 {
+    background-color: transparent;
+    position: absolute;
+    top:1100px;
+    right:-70px;
+    z-index:0;
+    height: 500px;
+}
+
+#about__plane1 {
+    display: none;
+}
+
+#about__plane2 {
+    display: none;
+}
+
+@media screen and (max-width: 1120px) {
+    .about__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 12rem 0 0 0;
+    }
+    
+    .about__text p{
+        font-family: ObjectivityLight;
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+        width: 100%;
+        text-align: left;
+        margin: 2rem 0 0 0;
+    }
+
+    #about__image {
+        width: 20rem;
+    }
+
+    /* Background  */
+    #about__spirals1 {
+        background-color: transparent;
+        position: absolute;
+        top:900px;
+        left:-140px;
+        z-index:0;
+        height: 500px;
+    }
+
+    #about__spirals2 {
+        background-color: transparent;
+        position: absolute;
+        top:950px;
+        right:-70px;
+        z-index:0;
+        height: 380px;
+    }
+
+    #about__plane1 {
+        display: block;
+        position: absolute;
+        background-color: transparent;
+        top:980px;
+        left:-90px;
+        z-index:0;
+        height: 300px;
+    }
+    
+    #about__plane2 {
+        display: block;
+        position: absolute;
+        background-color: transparent;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        top:1000px;
+        right:-80px;
+        z-index:0;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .about__header {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .about__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 7rem 0 0 0;
+    }
+    
+    .about__text p{
+        font-family: ObjectivityLight;
+        font-size: 1rem;
+        line-height: 1.6rem;
+        width: 100%;
+        margin: 1rem;
+    }
+
+    #about__image {
+        width: 17rem;
+        margin: 2rem 0;
+    }
+
+/* Background  */
+    #about__spirals1 {
+        background-color: transparent;
+        position: absolute;
+        top:940px;
+        left:-100px;
+        z-index:0;
+        height: 300px;
+    }
+    s
+    #about__spirals2 {
+        background-color: transparent;
+        position: absolute;
+        top:950px;
+        right:-60px;
+        z-index:0;
+        height: 250px;
+    }
+    
+    #about__plane1 {
+        display: block;
+        position: absolute;
+        background-color: transparent;
+        top:990px;
+        left:-60px;
+        z-index:0;
+        height: 160px;
+    }
+        
+    #about__plane2 {
+        display: block;
+        position: absolute;
+        background-color: transparent;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        top:1020px;
+        right:-40px;
+        z-index:0;
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    /* Background  */
+    #about__spirals1 {
+        background-color: transparent;
+        position: absolute;
+        top:800px;
+        left:-100px;
+        z-index:0;
+        height: 250px;
+    }
+
+    #about__spirals2 {
+        background-color: transparent;
+        position: absolute;
+        top:1180px;
+        right:-60px;
+        z-index:0;
+        height: 200px;
+    }
+    
+    #about__plane1 {
+        display: block;
+        position: absolute;
+        background-color: transparent;
+        top:860px;
+        left:-40px;
+        z-index:0;
+        height: 120px;
+    }
+        
+    #about__plane2 {
+        display: block;
+        position: absolute;
+        background-color: transparent;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        top:1220px;
+        right:-30px;
+        z-index:0;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about__header {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .about__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 4rem 0 0 0;
+    }
+    
+    .about__text p{
+        font-family: ObjectivityLight;
+        font-size: 0.9rem;
+        line-height: 1.4rem;
+        max-width: 440px;
+        margin: 0.5rem;
+    }
+
+    #about__image {
+        width: 12rem;
+        margin: 1rem;
+    }
+}

@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: 99;
+    background-color: #121C25;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav.scrolled {
+    background-color: white;
+}
+
+.nav.scrolled li {
+    color: #121C25;
+}
+
+li {
+    font-family: ObjectivityMedium;
+    list-style-type: none;
+    background: transparent;
+    height: 5rem;
+    cursor: pointer;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+a {
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+li:hover, li a:hover {
+    color: #F97F3D;
+}
+
+/* customized burger icon */
+.top, .middle, .bottom {
+    width: 24px;
+    height: 4px;
+    border-radius: 16px;
+    border-color: none;
+    margin: 4px 10px;
+  }
+
+.top { background-color: #0B59B6;}
+.middle { background-color: #F97F3D;}
+.bottom { background-color: #F2B330;}
+
+.nav__burger {
+    position: absolute;
+    top: 1.6rem;
+    right: 1rem;
+    z-index: 2;
+}
+
+.nav__sus-logo {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+}
+
+/* customizing the items in mobile view*/
+@media screen and (max-width: 960px) {
+.nav__menu {     
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 80px;
+    top: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 2;
+}
+
+
+.nav__menu.active {
+    display: flex;
+    flex-direction: column;
+    background-color: #121C25;
+    top: 80px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 2;
+}
+.nav__burger.active {
+    transform: rotate(45deg);
+}
+}
+/* ^customizing the items in mobile view*/
+
+
+.nav__links {
+    color: #FFF;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+/* Tablet menu */
+@media screen and (min-width: 700px) {
+    /* no tablet screens yet */
+}
+
+/* Desktop menu */
+@media screen and (min-width: 960px) {
+    .nav__item {
+        position: relative;
+        display: block;
+        width: auto;
+    }
+
+    .nav__menu {
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        grid-gap: 10px;
+        list-style: none;
+        text-align: center;
+        width: 100%;
+        justify-content: end;
+        margin-right: 1rem;
+    }
+
+    .nav__item {
+        display: flex;
+        align-items: center;
+        height: 80px;
+    }
+
+    .nav__links {
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+      }
+
+    .nav__burger {
+        display: none;
+    }
+}
