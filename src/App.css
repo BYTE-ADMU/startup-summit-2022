@@ -2,6 +2,10 @@
   scroll-behavior: smooth;
 }
 
+button, a {
+  cursor: pointer;
+}
+
 .App {
   text-align: center;
 }
