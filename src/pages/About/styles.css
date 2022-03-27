@@ -87,6 +87,7 @@
     #about__spirals1 {
         background-color: transparent;
         position: absolute;
+        overflow:hidden;
         top:900px;
         left:-140px;
         z-index:0;
@@ -96,6 +97,7 @@
     #about__spirals2 {
         background-color: transparent;
         position: absolute;
+        overflow:hidden;
         top:950px;
         right:-70px;
         z-index:0;
@@ -106,6 +108,7 @@
         display: block;
         position: absolute;
         background-color: transparent;
+        overflow:hidden;
         top:980px;
         left:-90px;
         z-index:0;
@@ -116,6 +119,7 @@
         display: block;
         position: absolute;
         background-color: transparent;
+        overflow:hidden;
         -webkit-transform: scaleX(-1);
         transform: scaleX(-1);
         top:1000px;
