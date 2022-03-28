@@ -25,6 +25,10 @@
     margin:  0 0 2rem 0;
 }
 
+.schedule__bg {
+    overflow:hidden;
+}
+
 .button{
     display: flex;
     flex-direction: row;
