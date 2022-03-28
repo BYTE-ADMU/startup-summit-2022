@@ -11,7 +11,7 @@ import './styles.css';
 import leftShard from "./assets/left-shards.png";
 import rightShard from "./assets/right-shards.png";
 import leftCircle from "./assets/left-circle.png";
-import rightCircle from "./assets/right-circle.png";
+// import rightCircle from "./assets/right-circle.png";
 
 const data = [
     {
