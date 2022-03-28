@@ -1,4 +1,5 @@
 *, html, main {
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 

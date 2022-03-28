@@ -4,7 +4,7 @@
     width:100%;
     margin:2.5rem 0;
     padding:0;
-    overflow:hidden;
+    position: relative;
 }
 
 .landing__content{
@@ -18,7 +18,7 @@
 }
 
 .landing__bg {
-  overflow:hidden;
+  position: relative;
 }
 
 #landing__nowboarding{
