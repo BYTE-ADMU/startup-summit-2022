@@ -59,7 +59,6 @@ const FAQs = () => {
             <img src={leftShard} className="shard left" alt="Background" />
             <img src={rightShard} className="shard right" alt="Background" />
             <img src={leftCircle} className="circle left" alt="Background" />
-            <img src={rightCircle} className="circle right" alt="Background" />
 
             {/* CONTENT */}
             <h1 className="faq--header">Frequently Asked Questions</h1>
