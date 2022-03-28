@@ -184,6 +184,7 @@ color: #FAFAFA;
 #top-right-plane {
     background-color: transparent;
     position: absolute;
+    overflow: hidden;
     top: 1450px;
     right: -100px;
     height: 240px;
