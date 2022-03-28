@@ -171,6 +171,7 @@
     #about__spirals2 {
         background-color: transparent;
         position: absolute;
+        overflow:hidden;
         top:950px;
         right:-60px;
         z-index:0;
@@ -214,6 +215,7 @@
     #about__spirals2 {
         background-color: transparent;
         position: absolute;
+        overflow:hidden;
         top:1180px;
         right:-60px;
         z-index:0;
