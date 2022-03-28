@@ -26,6 +26,10 @@
     padding: 2rem 2rem 0 4rem;
 }
 
+.aboutbyte__bg {
+    overflow:hidden;
+}
+
 .aboutbyte__text p{
     font-family: ObjectivityRegular;
     font-size: 1.2rem;

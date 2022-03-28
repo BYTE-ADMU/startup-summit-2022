@@ -22,6 +22,10 @@
     align-self: center;
 }
 
+.about__bg {
+    overflow:hidden;
+}
+
 .about__text p {
     font-family: ObjectivityLight;
     font-size: 1.3rem;
