@@ -13,7 +13,6 @@
 }
 
 .aboutbyte__content {
-    max-height: 25rem;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;

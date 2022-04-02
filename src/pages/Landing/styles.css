@@ -17,10 +17,6 @@
     z-index: 1;
 }
 
-.landing__bg {
-  position: relative;
-}
-
 #landing__nowboarding{
     max-width:309px;
     z-index: 1;
@@ -107,7 +103,7 @@ p{
 #landing__leftplane {
   background-color: transparent;
   position: absolute;
-  top:210px;
+  top:200px;
   left:0;
   z-index:0;
   height: 140px;
@@ -147,10 +143,10 @@ p{
 #landing__yellowplane {
   background-color: transparent;
   position: absolute;
-  bottom: -0px;
+  bottom: 20px;
   left: -20px;
   z-index:0;
-  height: 170px;
+  height: 150px;
 }
 
 @media screen and (max-width:800px){
