@@ -13,7 +13,6 @@
 }
 
 .aboutbyte__content {
-    max-height: 25rem;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
@@ -85,7 +84,7 @@
     }
 
     #aboutbyte__image {
-        width: 23rem;
+        max-width: 23rem;
         z-index: 1;
         background-color: transparent;
         margin: 0 5rem 0 0;
@@ -138,8 +137,8 @@
     }
 
     #aboutbyte__image {
-        width: 17rem;
-        margin:7rem 0 0 1rem;
+        max-width: 17rem;
+        margin:0 0 0 1rem;
     }
     
     #aboutbyte-bg-dots {
@@ -158,7 +157,7 @@
 @media screen and (max-width: 640px) {
     .aboutbyte__header {
         font-size: 1.5rem;
-        margin-bottom: 8rem;
+        margin-bottom: 3rem;
         padding: 0;
     }
     
@@ -168,7 +167,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        margin: 4rem 0 0 0;
+        margin: 0;
     }
     
     .aboutbyte__text p{
@@ -181,7 +180,7 @@
     }
 
     #aboutbyte__image {
-        width: 15rem;
+        max-width: 15rem;
         margin: 1rem 0;
     }
 
