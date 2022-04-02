@@ -19,7 +19,9 @@ export default function Schedule(){
                 <div className="schedule__title boarding__pass">TAKE OFF INTO YOUR FUTURE!</div>
                 <div className='boarding_pass_details'>
                     <div className='boarding_pass_spiel'>Join us as we embark on an exciting journey with students, storytellers, and startup founders as we become catalysts for change!</div>
-                    <div className='claim'><Button variant='navbar schedule-btn' label='REGISTER NOW!'></Button> </div>
+                    <a href="https://tinyurl.com/SUS2022RegForm/" className="claim" target="_blank" rel="noreferrer">
+                        <Button variant='navbar schedule-btn' label="REGISTER NOW!" href="https://tinyurl.com/SUS2022RegForm/" />
+                    </a>
                 </div>
             </div>
             <img src={MainTicket} id="schedule-main-ticket" alt="Ticket" />
