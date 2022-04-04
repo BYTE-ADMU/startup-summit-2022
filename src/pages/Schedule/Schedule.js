@@ -25,28 +25,6 @@ export default function Schedule(){
                 </div>
             </div>
             <img src={MainTicket} id="schedule-main-ticket" alt="Ticket" />
-            {/* <div className='Ticket'>
-                <Ticket reversed> 
-                    <div className="ticket__container">
-                        <div className="left-ticket">
-                            <div className="ticket-head">
-                                <h1 className="ticket-title">STARTUP SUMMIT 2022</h1>
-                                <h2 className="ticket-subtitle">BOARDING PASS</h2>
-                            </div>
-
-                            <div className="ticket-body">
-                                <h1 className="ticket-info">4 DAYS, 10 SPEAKERS, NETWORKING,</h1>
-                                <h1 className="ticket-info">INTERNSHIP OPPORTUNITIES, AND MORE!</h1>
-                            </div>
-
-                            <div className="ticket-bottom">
-                                <h4 className="ticket-mini-text">SUS 2022 - ADMIT ONE  |  ID: SUS #2022</h4>
-                                <img src={LeftTicketBars} id="ticket-bars"/>
-                            </div>
-                        </div>
-                    </div>
-                </Ticket>
-            </div> */}
             <div className='schedule_details'>
                 <div className='schedule__title schedule'>SCHEDULE</div>
                     <div className='schedule_info_container'>
@@ -54,7 +32,7 @@ export default function Schedule(){
                                 <div className='date'>Day 1 - April 6, 2022</div>
                                 <div className='date_info'>
                                     <div>Ideating a Startup</div>
-                                    <div>3:00 - 5:15 PM</div>
+                                    <div>2:50 - 5:15 PM</div>
                                 </div>
                             </div>
                                 <img src={arrow} id="schedule__arrow-icon" alt="Arrow" />
@@ -82,7 +60,12 @@ export default function Schedule(){
                                 </div>
                             </div>
                     </div>
-                <div className='mini-detail'>*Networking Night will be held via Zoom</div>
+                <div className="schedule__networking-container">
+                    <div className='mini-detail'>*Networking Night will be held via Zoom</div>
+                    <a href="https://tinyurl.com/SUS22NetworkingNight" className="claim" target="_blank" rel="noreferrer">
+                        <Button variant='navbar schedule-btn' label="REGISTER NOW!" href="https://tinyurl.com/SUS2022RegForm/" />
+                    </a>
+                </div>
             </div>
             <div className='bottom_card'>
                 <div className='schedule__title speakers_soon'>SPEAKERS COMING SOON</div>

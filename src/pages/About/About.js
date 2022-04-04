@@ -15,7 +15,7 @@ export default function About(){
                 <img src={AboutSusImage} id="about__image" alt="About SUS" />
                 <div className="about__text">
                     <p>
-                    Startup Summit is BYTE's flagship tech startup conference featuring thought-provoking keynote sessions, personal interactions with global thought leaders, internships and networking opportunities through platforms such as Hopin and Discord. Over the course of 3 days, we will go over the steps of constructing a startup from the ground up that every entrepreneur takes in their journey as a founder.
+                    Startup Summit is BYTE's flagship tech startup conference featuring thought-provoking keynote sessions, personal interactions with global thought leaders, internships and networking opportunities through platforms such as Hopin, Zoom and Discord. Over the course of 3 days, we will go over the steps of constructing a startup from the ground up that every entrepreneur takes in their journey as a founder.
                     </p>
                     <p>Join us as we discover more about the ideation, technicalities, and adversities of a startup by learning from a high-caliber roster of speakers!</p>
                 </div>
