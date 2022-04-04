@@ -63,7 +63,7 @@ export default function Schedule(){
                 <div className="schedule__networking-container">
                     <div className='mini-detail'>*Networking Night will be held via Zoom</div>
                     <a href="https://tinyurl.com/SUS22NetworkingNight" className="claim" target="_blank" rel="noreferrer">
-                        <Button variant='navbar schedule-btn' label="REGISTER NOW!" href="https://tinyurl.com/SUS2022RegForm/" />
+                        <Button variant='navbar schedule-btn' label="REGISTER HERE!" href="https://tinyurl.com/SUS2022RegForm/" />
                     </a>
                 </div>
             </div>
