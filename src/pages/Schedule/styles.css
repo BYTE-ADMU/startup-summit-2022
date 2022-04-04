@@ -122,6 +122,11 @@
 
 .schedule_details {
     margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .schedule {
@@ -129,8 +134,15 @@
     font-size: 2.5rem;
     margin-bottom: 2.5rem;
     width: 100%;
-/* White */
-color: #FAFAFA;
+    /* White */
+    color: #FAFAFA;
+}
+
+.schedule__networking-container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 0.5rem 0 0 0;
 }
 
 .schedule_info_container{
@@ -240,6 +252,11 @@ color: #FAFAFA;
 
     .schedule_details {
         margin: 4rem 0 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
 
     .schedule {
@@ -360,6 +377,11 @@ color: #FAFAFA;
     .schedule {
         font-size: 1.2rem;
         text-align: center;
+    }
+
+    .schedule__networking-container {
+        display:flex;
+        flex-direction: column;
     }
 
     #schedule-main-ticket {
