@@ -26,23 +26,23 @@ M Lee, Joshua Taningco, Mon Lagustan, Martina Reyes, Trisha Lim, Yana Palarca, J
 
 - [x] Set up the Project Repository
 - [x] Set up the CMS Repository
-- [] Navigation Bar 
-- [] Footer
-- [] Landing 
-- [] Schedule 
-- [] Startups
-- [] About 
-- [] Register
+- [x] Navigation Bar 
+- [x] Footer
+- [x] Landing 
+- [x] Schedule 
+- [x] Startups
+- [x] About 
+- [x] Register
 
 # Filling in the Contents
 
-- [] Navigation Bar 
-- [] Footer
-- [] Landing 
-- [] Schedule 
-- [] Startups
-- [] About 
-- [] Register
+- [x] Navigation Bar 
+- [x] Footer
+- [x] Landing 
+- [x] Schedule 
+- [x] Startups
+- [x] About 
+- [x] Register
 
 # Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

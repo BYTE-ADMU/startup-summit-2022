@@ -12,10 +12,17 @@ import Twitter from './assets/twitter.png';
 import Linkedin from './assets/linkedin.png';
 import Email from './assets/email.png';
 import Website from './assets/website.png';
+import PartnerLogos from './assets/partner-logos.png';
 
 export default function Footer(){
     return (
         <div className='footer__container'>
+            <div className="footer__border"></div>
+            <div className="footer__partner-container">
+                <h2>In proud partnership with:</h2>
+                <img src={PartnerLogos} id="footer-partner-logo"/>
+            </div>
+            <div className="footer__border" id="border-extra"></div>
             <div className="header-content">
                 <div className="SUS-info">
                     <div className="SUS-info-item">
