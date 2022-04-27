@@ -20,7 +20,7 @@ export default function Footer(){
             <div className="footer__border"></div>
             <div className="footer__partner-container">
                 <h2>In proud partnership with:</h2>
-                <img src={PartnerLogos} id="footer-partner-logo"/>
+                <img src={PartnerLogos} id="footer-partner-logo" alt="partner-banner-img"/>
             </div>
             <div className="footer__border" id="border-extra"></div>
             <div className="header-content">
