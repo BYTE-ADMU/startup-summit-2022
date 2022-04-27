@@ -13,6 +13,7 @@ import Testimonials from './pages/Testimonials/Testimonials';
 // Startups page goes here
 import AboutByte from './pages/AboutByte/AboutByte';
 import FAQs from  './pages/FAQs/FAQs';
+// import Internships from './pages/Internships/Internships';
 
 //Backgrounds for the intersected areas
 import Bars from './pages/Landing/assets/landing__bg-bars.png'
