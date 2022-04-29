@@ -5,28 +5,67 @@
     position: relative;
 }
 
-.boarding_pass_container {
-    margin: 6rem 0 0 0;
-}
-
 .startups__title {
-    font-family: 'Nulshock';
+    font-family: Nulshock, sans-serif;
     font-size: 2.5rem;
-    margin-bottom: 3rem;
-    color: #FAFAFA;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
-.boarding_pass_details{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    margin:  0 0 2rem 0;
+.startups__subtitle {
+    font-size: 1.5rem;
+    margin: 0 0 2rem 0;
 }
 
-.startups__bg {
-    position: relative;
+.startups__wrapper {
+    display: grid; 
+    grid-template-columns: 0.5fr 2.5fr;
+}
+
+.black-text {
+    color: black;
+    text-align: left;
+}
+
+.startupname {
+    font-size: 4rem;
+    font-family: Nulshock, sans-serif;
+    margin: 0 0 2rem 0;
+}
+
+.below {
+    margin-top: 1rem;
+}
+
+.startups__content-wrapper {
+    color: black;
+    background-color: #FFFCF5;
+    border: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 3rem;
+    border-radius: 25px;
+}
+
+.startups__content-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.startups__header-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.expertise {
+    font: ObjectivityMedium, sans-serif;
+    font-size: 0.875rem;
 }
 
 .button{
@@ -38,50 +77,114 @@
     height: 61px;
     left: 716px;
     top: 258px;
-    background: linear-gradient(89.74deg, #0B59B6 17.98%, #F97F3D 47.99%, #F2B330 109.5%);
+    background-color: #0B59B6;
 }
 
-.startups-btn {
-    border: 4px solid #fff;
-    margin-left: 2rem;
+.aboutus {
+    font-size: 2rem;
+    font-family: ObjectivityMedium, sans-serif;
 }
 
-.boarding_pass_spiel{
-    max-width: 35rem;
-    align-items: center;
-    font-family: ObjectivityMedium;
-    font-size: 1.5rem;
-    line-height: 1.75rem;
-    color: #FAFAFA;
+.regular {
+    font-size: 1rem;
+    font-family: ObjectivityRegular, sans-serif;
+    line-height: 1.5rem;
 }
 
-#startups-main-ticket {
-    width: 100%;
-}
-
-.Ticket{
-    width: 70rem;
-    height: 21.125rem;
-    margin-top: 2rem;
-    margin-left: 6rem;
-}
-
-.left-ticket {
+.startups__icons {
     display: flex;
-    flex-direction: column;
-    background-color: #FFFCF5;
 }
 
-.ticket-head {
-    background-color: #FFFCF5;
+.social-media-text {
+    font-size: 1rem;
+    font-family: ObjectivityRegular, sans-serif;
+    padding: 0 0.875rem;
 }
 
-.ticket-title {
-    font-family: Nulshock;
-    color: var(--primary-color);
-    background-color: #FFFCF5;
-    text-align: left;
+.socials {
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.intern__wrapper {
+    display: flex;
+}
+
+.intern__content {
+    margin: 0 0.8rem;
+}
+
+.intern-title {
+    font-size: 1.5rem;
+    font-family: Nulshock, sans-serif;
     padding: 0 0 0.4rem 0;
+}
+
+.intern-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    text-align: center;
+    align-items: center;
+}
+
+.commitment {
+    font-family: ObjectivityMedium, sans-serif;
+    font-size: 0.875rem;
+}
+
+#orange {
+    background-color: #F97F3D;
+    color: #FFF;
+    font-family: ObjectivityBold, sans-serif;
+    max-width: 174px;
+    border-radius: 25px;
+    font-size: 0.75rem;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0.6rem;
+}
+
+#blue {
+    background-color: #0B59B6;
+    color: #FFF;
+    font-family: ObjectivityBold, sans-serif;
+    max-width: 174px;
+    border-radius: 25px;
+    font-size: 0.75rem;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0.6rem;
+}
+
+#intern-text {
+    font-family: ObjectivityRegular;
+    font-size: 0.75rem;
+    text-align: right;
+    align-items: center;
+}
+
+#intern-cta {
+    background: linear-gradient(89.74deg, #0B59B6 17.98%, #F97F3D 47.99%, #F2B330 109.5%);
+    /* White */
+    
+    border: 7px solid #FAFAFA;
+    border-radius: 8px;
+    font-family: Nulshock, sans-serif;
+    padding: 1rem;
+    border-radius: 25px;
+}
+
+.marg {
+    margin: 0 0 0.3rem 0;
 }
 
 @media screen and (max-width: 750px) {

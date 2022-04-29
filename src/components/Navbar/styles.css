@@ -124,9 +124,9 @@ li:hover, li a:hover {
     }
 
     .nav__menu {
-        display: grid;
-        grid-template-columns: repeat(5, auto);
-        grid-gap: 10px;
+        display: flex;
+        /* grid-template-columns: repeat(5, auto);
+        grid-gap: 10px; */
         list-style: none;
         text-align: center;
         width: 100%;

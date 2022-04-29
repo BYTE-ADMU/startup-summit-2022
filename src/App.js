@@ -36,7 +36,7 @@ function App() {
         <About />
         <Schedule />
         <Testimonials />
-        {/* <Startups /> */}
+        <Startups />
         <AboutByte />
         <FAQs />
         <Footer />
