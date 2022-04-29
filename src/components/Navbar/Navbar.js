@@ -55,6 +55,11 @@ function Navbar() {
                     </a>
                 </li>
                 <li className="nav__item">
+                    <a href="#startups" className='nav__links' onClick={closeMobileMenu}>
+                        Startups
+                    </a>
+                </li>
+                <li className="nav__item">
                     <a href="https://tinyurl.com/SUS2022RegForm/" target="_blank" rel="noreferrer">
                         <Button variant="navbar" label="Register" href="https://tinyurl.com/SUS2022RegForm/" />
                     </a>

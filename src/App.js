@@ -10,10 +10,9 @@ import Landing from './pages/Landing/Landing';
 import About from './pages/About/About';
 import Schedule from './pages/Schedule/Schedule';
 import Testimonials from './pages/Testimonials/Testimonials';
-// Startups page goes here
+import Startups from './pages/Startups/Startups'
 import AboutByte from './pages/AboutByte/AboutByte';
 import FAQs from  './pages/FAQs/FAQs';
-// import Internships from './pages/Internships/Internships';
 
 //Backgrounds for the intersected areas
 import Bars from './pages/Landing/assets/landing__bg-bars.png'
@@ -37,7 +36,7 @@ function App() {
         <About />
         <Schedule />
         <Testimonials />
-        {/* <Startups /> */}
+        <Startups />
         <AboutByte />
         <FAQs />
         <Footer />
