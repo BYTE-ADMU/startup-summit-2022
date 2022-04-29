@@ -130,7 +130,7 @@ li:hover, li a:hover {
         list-style: none;
         text-align: center;
         width: 100%;
-        justify-content: end;
+        justify-content: flex-end;
         margin-right: 1rem;
     }
 
