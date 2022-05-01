@@ -563,7 +563,7 @@ export default function Startups(){
             </div>
 
             <div className="startups__mobile-text">
-                The content is only visible in a laptop/computer.
+                The content is only visible in a laptop/computer screen size.
             </div>
         </div>
     )
